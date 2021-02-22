@@ -1,5 +1,28 @@
 # Vim
 
+- `u` - undo single change
+- `U` - undo all changes on the same line  
+- `ctrl+r` - redo
+- `ctrl+g` - show status bar (filename, total number of lines, ...)
+
+## Insert mode
+
+### Switch to insert mode
+- `i` - insert before cursor
+- `I` - insert at the beginning of the line 
+- `a` - append after cursor
+- `A` - append at the end of the line
+
+
+## Command mode  
+- `ctrl+d` - list completion options 
+- `tab` - completion
+
+### Commands
+- `:q[!]` - (force) quit
+- `:w [FILENAME]` - save (write) the file
+- `:x` or `ZZ` - save the file and exit
+
 ## Movement
 - `h, j, k, l`  - move left, down, up, right
 - `w, W` - next word/WORD
@@ -11,6 +34,7 @@
 - `0` - start of line
 - `^` - start of line after whitespaces
 - `$` - end of line
+- `*, #` - go to the next (previous) occurrence of this word
 
 ## Text manipulation
 - `x, X` - delete, backspace
@@ -20,68 +44,59 @@
     - `dt"` - delete till `"`
 - `dd` - delete line
 - `D, d$` - delete until the end of line
+- `.` - repeat the last _manipulation_ command
 
-## Commands
-- `:q[!]` - (force) quit
-- `:w [FILENAME]` - save (write) the file
-- `:x` or `ZZ` - save the file and exit
-- `:e FILENAME` - load (edit) file
 
 ## Modes
+https://www.freecodecamp.org/news/vim-editor-modes-explained/
+- normal
+- insert
+- visual  
+- command  
+- replace
 
+## Viewports
+- `:sp[lit]` - split horizontally
+- `:vsp[list]` - split vertically  
+- `ctrl+w <MOVE>` - switch between windows
+  - `ctrl+w h,j,k,l` - switch to window in direction
+  - `ctrl+w ctrl+w` - switch to the next window
+  - `ctrl+w q` - close window
 
+## Buffers
+- `:e FILENAME` - load (edit) file (creates new buffer)
+- `:ls` - list buffers
+- `:b <NUMBER/NAME>` - switch to buffer by number or name
+- `:b #` - switch to previous buffer   
+- `:bd` - close buffer
+
+## Search & Replace
+
+## 
 
 TODO
 ---
-   
----
-
-ctrl+w switch windows
-:e open (edit) file
-:ls list opened files (buffers)
-:b # go to buffer
-:bd close buffer
-
-tab completion
-ctrl+d list completion options
-
----
-
-*,# next/prev word occurence
-2G go to line 2
-
 search supports regex
-
-. repeat the commands which change the contents of the buffer
-
-
-- i (I)
-- a (A)
 - r (R)
-
-
 word/WORD
-
-
-u undo, U undo line
-ctrl+R redo
 operator [number] motion - operators: d, c, y, ..
 registers
-buffers
 p (P) paste/put
 r replace
 c change, c$ = C
 s substitute
-ctrl+g status (filename, line,..)
-
 / search forward
 /foo\c search ignore case
 :set hls (hlsearch) - highlight search result (:set nohls)
 :set ic (ignorecase) - ignore case (:set noic)
 :set is (incsearch) - incremental search (jumps immediatelly)
 prepend with 'no' to turn off
-
 ? search backward
+  % Means across all lines
+  s Means substitute
+  /foo is regex to find things to replace
+  /bar/ is regex to replace things with
+  /g means global, otherwise it would only execute once per line
 n, N navigate search
 ctrl+o, ctrl+i navigace v historii pohybu vpred/vzad, nutno jeste vyzkouset
 % matchin parentheses
@@ -91,23 +106,12 @@ Substitute command
 /+c - ask for confirm
 :%s - replace in file
 :#,#s - replace in line range
-
 ctrl Y, E scrolling up/down, U,D a taky B,f
-
 :! execute external command
-
 VISUAL MODE
 v visual
 v + w: FILE_PART
 move, delete, yank, ..
-
 :r read file into this file
 :r !ls read command output into this file (nice)
-
 o, O new line
-
-
-http://iccf-holland.org/click5.html
-
-
-
