@@ -24,27 +24,35 @@
 - `:x` or `ZZ` - save the file and exit
 
 ## Movement
-- `h, j, k, l`  - move left, down, up, right
+- `h, j, k, l`  - left, down, up, right
 - `w, W` - next word/WORD
 - `e, E` - end of this or next word/WORD
 - `b, B` - beginning of this or previous word/WORD
+- `ge, gE` - end of previous word/WORD 
 - `gg` - first line
 - `G` - last line
 - `<NUMBER>G` - go to line number
 - `0` - start of line
 - `^` - start of line after whitespaces
 - `$` - end of line
-- `*, #` - go to the next (previous) occurrence of this word
+- `%` - matching bracket (`(), [], {}`)  
+- `*, #` - next (previous) occurrence of this word
+- `), (` - next (previous) sentence
+- `}, {` - next (previous) paragraph (empty line)
+- `]m, [m` - next (previous) start of method (_coding_)
+- `]M, [M` - next (previous) end of method (_coding_)
+- `H, M, L` - high, middle, low - jump to screen position without scrolling
 
 ## Text manipulation
 - `x, X` - delete, backspace
-- `d<MOVE>`
+- `d<MOVE>` - deletion
     - `dw` - delete word
     - `d2W` - delete 2 WORDS
     - `dt"` - delete till `"`
-- `dd` - delete line
-- `D, d$` - delete until the end of line
+    - `dd` - delete line
+    - `d$, D` - delete until the end of line
 - `.` - repeat the last _manipulation_ command
+- `~` - change case (upper/lower)
 
 
 ## Modes
@@ -76,6 +84,7 @@ https://www.freecodecamp.org/news/vim-editor-modes-explained/
 
 TODO
 ---
+operators - d, y, c
 search supports regex
 - r (R)
 word/WORD
@@ -84,6 +93,7 @@ registers
 p (P) paste/put
 r replace
 c change, c$ = C
+cc change line
 s substitute
 / search forward
 /foo\c search ignore case
@@ -115,3 +125,9 @@ move, delete, yank, ..
 :r read file into this file
 :r !ls read command output into this file (nice)
 o, O new line
+()
+[(, [{, [), [}
+text-objects: ia  
+map Y y$ to get consistent behaviour
+  J join lines
+H,M,L  
