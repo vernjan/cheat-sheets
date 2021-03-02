@@ -106,21 +106,6 @@ https://www.freecodecamp.org/news/vim-editor-modes-explained/
 - `:b #` - switch to previous buffer   
 - `:bd` - close buffer
 
-## Search & Replace
-- `/, ?`- search forward/backward (_regex_ supported)
-- `n, N` - next/previous search occurrence
-
-## TODO
-- operators - d, y, c
-- motion numbers - 1, 2, 3, ..
-- copy & paste incl.  registers
-- text-objects
-- external commands (:! ls)
-- marks: `m`, ```, `'`, :marks, :delm [!]
-- advanced moves
-  - `d/foo` - delete until foo
-  - `4/foo` - find 4th foo
-
 ## Copy & Paste
 - `p, P` - paste after/before line (cursor)
 - `y<MOVE>` - copy (yank) 
@@ -142,28 +127,44 @@ _Whatever is deleted or copied (yanked) goes into registers._
 - `_` - black hole register (like `/dev/null`)
 - `/` - last search register
 
-TODO
-6. Four read-only registers ":, "., "% and "#
-8. The selection and drop registers "*, "+ and "~
+## Search & Replace
+- `/, ?` - search forward/backward (supports _regex_)
+  - `/foo\c` - case-insensitive
+  - `/foo\C` - case-sensitive
+- `n, N` - next/previous search result
 
-TODO Search & Replace
----
-/foo\c search ignore case
-:set hls (hlsearch) - highlight search result (:set nohls)
-:set ic (ignorecase) - ignore case (:set noic)
-:set is (incsearch) - incremental search (jumps immediatelly)
-prepend with 'no' to turn off
-? search backward
+### Configuration
+- `:set hls` - (`hlsearch`) - highlight search results
+- `:set ic` - (`ignorecase`) - ignore case
+- `:set is` - (`incsearch`) - incremental search (jump immediately to results)
+
+### Tips
+- Pressing `/` (or `?`) + `enter` repeats the last search
+
+
+
+### Replacing
+
   % Means across all lines
   s Means substitute
   /foo is regex to find things to replace
   /bar/ is regex to replace things with
   /g means global, otherwise it would only execute once per line
-j
-ctrl+o, ctrl+i navigace v historii pohybu vpred/vzad, nutno jeste vyzkouset
-Substitute command
+
 :s/old/new - replace once in line
 :s/old/new/g - replace all in line
 /+c - ask for confirm
 :%s - replace in file
 :#,#s - replace in line range
+
+
+## TODO
+- operators - d, y, c
+- motion numbers - 1, 2, 3, ..
+- copy & paste incl.  registers
+- text-objects
+- external commands (:! ls)
+- marks: `m`, ```, `'`, :marks, :delm [!]
+- advanced moves
+  - `d/foo` - delete until foo
+  - `4/foo` - find 4th foo
