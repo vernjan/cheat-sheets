@@ -23,6 +23,7 @@
 - `:x` or `ZZ` - save the file and exit
 - `:r <FILENAME>` - read an external file into this file
 - `:r !<COMMAND>` read external command output into this file (e.g. `:r !ls`)
+- `:<NUMBER>` - go to line
 
 ## Navigation
 - `h, j, k, l`  - left, down, up, right
@@ -41,6 +42,7 @@
 - `]M, [M` - next (previous) end of method (_coding_)
 - `[(, ])` - next `(` / previous `)`
 - `[{, ]}` - next `}` / previous `{`
+- `<NUMBER>|` - jump to column
 
 ### Scrolling
 - `gg` - first line
@@ -50,6 +52,7 @@
 - `ctrl+d, ctrl+u` - scroll half screen down/up
 - `ctrl+f, ctrl+b` - scroll full screen front/back
 - `ctrl+e, ctrl+y` - scroll one line down/up
+- `zt, zb, zz` - scroll top, bottom, middle (cursor does not move)
 
 ### word vs. WORD
 _This is mind-blowing example!_
@@ -113,6 +116,10 @@ https://www.freecodecamp.org/news/vim-editor-modes-explained/
 - copy & paste incl.  registers
 - text-objects
 - external commands (:! ls)
+- marks: `m`, ```, `'`, :marks, :delm [!]
+- advanced moves
+  - `d/foo` - delete until foo
+  - `4/foo` - find 4th foo
 
 TODO Search & Replace
 ---
