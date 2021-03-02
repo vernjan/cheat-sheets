@@ -121,6 +121,31 @@ https://www.freecodecamp.org/news/vim-editor-modes-explained/
   - `d/foo` - delete until foo
   - `4/foo` - find 4th foo
 
+## Copy & Paste
+- `p, P` - paste after/before line (cursor)
+- `y<MOVE>` - copy (yank) 
+- `"<REGISTER_NAME>` - copy into / paste from the specific registers
+- `"<CAPITAL_REGISTER_NAME>y<MOVE>` - append into register
+
+### Registers
+_Whatever is deleted or copied (yanked) goes into registers._
+- `:reg` - show registers
+
+### Types of registers
+- _line (l)_ vs. _character (c)_
+- `""` - default register
+- `0-9` - history
+- `a-z` - custom named registers
+  - `"ay$` - copy from the current cursor position until the end of line into register `a`
+  - `"ap` - paste from register `a`  
+- `-` - small register holds last _character_ yank/delete
+- `_` - black hole register (like `/dev/null`)
+- `/` - last search register
+
+TODO
+6. Four read-only registers ":, "., "% and "#
+8. The selection and drop registers "*, "+ and "~
+
 TODO Search & Replace
 ---
 /foo\c search ignore case
