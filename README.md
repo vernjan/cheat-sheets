@@ -2,4 +2,4 @@
 
 - [Vim](vim.md)
 - [.vimrc](vimrc.md)
-- IntelliJ IDEA
+- [IntelliJ IDEA](idea.md)
