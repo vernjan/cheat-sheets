@@ -119,13 +119,16 @@ _Whatever is deleted or copied (yanked) goes into registers._
 ### Types of registers
 - _line (l)_ vs. _character (c)_
 - `""` - default register
-- `"0-9` - numbered registers - history
+- `"0` - last yanked
+- `"1-9` - delete history
 - `"a-z` - custom named registers
   - `"ay$` - copy from the current cursor position until the end of line into register `a`
   - `"ap` - paste from register `a`  
 - `"-` - small register holds last _character-wise_ yank/delete
 - `"_` - black hole register (like `/dev/null`)
 - `"/` - last search register
+- `"*, "+` - system clipboard
+  - > In X (Linux, possibly also OS-X), * is the "mouse highlight" clipboard, and + is the Ctrl-XCV clipboard
 
 ## Search & Replace
 - `/, ?` - search forward/backward (supports _regex_)
