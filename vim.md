@@ -119,17 +119,17 @@ _Whatever is deleted or copied (yanked) goes into registers._
 ### Types of registers
 - _line (l)_ vs. _character (c)_
 - `""` - default register
-- `0-9` - history
-- `a-z` - custom named registers
+- `"0-9` - numbered registers - history
+- `"a-z` - custom named registers
   - `"ay$` - copy from the current cursor position until the end of line into register `a`
   - `"ap` - paste from register `a`  
-- `-` - small register holds last _character_ yank/delete
-- `_` - black hole register (like `/dev/null`)
-- `/` - last search register
+- `"-` - small register holds last _character-wise_ yank/delete
+- `"_` - black hole register (like `/dev/null`)
+- `"/` - last search register
 
 ## Search & Replace
 - `/, ?` - search forward/backward (supports _regex_)
-  - `/foo\c` - case-insensitive
+  - `/foo\c` - case in-sensitive
   - `/foo\C` - case-sensitive
 - `n, N` - next/previous search result
 
@@ -142,29 +142,32 @@ _Whatever is deleted or copied (yanked) goes into registers._
 - Pressing `/` (or `?`) + `enter` repeats the last search
 
 
-
 ### Replacing
+https://linuxize.com/post/vim-find-replace/
+```
+:[range]s/{pattern}/{string}/[flags] [count]
+```
 
-  % Means across all lines
-  s Means substitute
-  /foo is regex to find things to replace
-  /bar/ is regex to replace things with
-  /g means global, otherwise it would only execute once per line
+- `:s/pattern/string` - replace once on this line (use empty _string_ for deletion)
+- `:%s/pattern/string` - replace once/all (based on setting) in this buffer (file)
+- `:#,#s/pattern/string` - replace in line range
+  - `:3,10s/foo/bar/g` - replace from 3rd to 10th line 
+  - `:.,$s/foo/bar/` - replace from the current line till the end of buffer
+  - `:.,+4s/foo/bar/g` - replace till 4 lines below the current line
 
-:s/old/new - replace once in line
-:s/old/new/g - replace all in line
-/+c - ask for confirm
-:%s - replace in file
-:#,#s - replace in line range
-
+### Flags
+- `g` - global - replace all in the given context (line, range, buffer)
+- `c` - ask for confirmation
+- `i` - case in-sensitive (you can also use `:s/pattern\c/string`)
+- `I` - case-sensitive (you can also use `:s/pattern\C/string`)
 
 ## TODO
 - operators - d, y, c
 - motion numbers - 1, 2, 3, ..
-- copy & paste incl.  registers
 - text-objects
 - external commands (:! ls)
 - marks: `m`, ```, `'`, :marks, :delm [!]
 - advanced moves
   - `d/foo` - delete until foo
   - `4/foo` - find 4th foo
+- overAll organization  
