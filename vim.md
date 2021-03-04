@@ -59,6 +59,15 @@ _This is mind-blowing example!_
 - **words** - `This`, `is`, `mind`, `-`, `blowing`, `example`, `!`
 - **WORDS** - Separated by whitespaces: `This`, `is`, `mind-blowing`, `example!` 
 
+## Advanced moves
+- `[count]` - repeat the following movement/command
+  - `3w` - jump to 3rd word
+  - `5j` - jump 5 lines down
+  - `4/foo` - find the 4th foo
+  - `2dd` - delete 2 lines  
+- `dt"` - delete till `"`
+- `y2/foo` - copy (yank) till the second foo
+
 ## Text manipulation
 - `x, X` - delete, backspace
 - `r` - replace single character (`R` enters _replace_ mode)
@@ -71,12 +80,12 @@ _This is mind-blowing example!_
 - `c<MOVE>` - change (delete and enter _insert_ mode)
     - `c$, C` - change until the end of this line  
 - `s` - substitute (delete character and enter _insert_ mode)
+  - `[COUNT]s` - substitute x characters
 - `S, cc` - substitute line (delete line and enter _insert_ mode)
 - `o, O` - insert new line after (before) cursor  
 - `.` - repeat the last _manipulation_ command
 - `~` - change case (upper/lower)
 - `J` - join lines
-
 
 ## Modes
 https://www.freecodecamp.org/news/vim-editor-modes-explained/
@@ -108,6 +117,7 @@ https://www.freecodecamp.org/news/vim-editor-modes-explained/
 
 ## Copy & Paste
 - `p, P` - paste after/before line (cursor)
+- `ctrl+r <REGISTER_NAME>` - paste (in _insert_ mode)
 - `y<MOVE>` - copy (yank) 
 - `"<REGISTER_NAME>` - copy into / paste from the specific registers
 - `"<CAPITAL_REGISTER_NAME>y<MOVE>` - append into register
@@ -164,13 +174,9 @@ https://linuxize.com/post/vim-find-replace/
 - `i` - case in-sensitive (you can also use `:s/pattern\c/string`)
 - `I` - case-sensitive (you can also use `:s/pattern\C/string`)
 
+
 ## TODO
-- operators - d, y, c
-- motion numbers - 1, 2, 3, ..
 - text-objects
 - external commands (:! ls)
 - marks: `m`, ```, `'`, :marks, :delm [!]
-- advanced moves
-  - `d/foo` - delete until foo
-  - `4/foo` - find 4th foo
 - overAll organization  
