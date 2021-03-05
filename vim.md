@@ -5,6 +5,9 @@
 - `ctrl+r` - redo
 - `ctrl+g` - show status bar (filename, total number of lines, ...)
 
+## External commands
+`:! <COMMAND>` - execute external command (`:! ls`)
+
 ## Insert mode
 
 ### Switch to insert mode
@@ -67,6 +70,7 @@ _This is mind-blowing example!_
   - `2dd` - delete 2 lines  
 - `dt"` - delete till `"`
 - `y2/foo` - copy (yank) till the second foo
+- `y'a` - copy (yank) till mark `a`
 
 ## Text manipulation
 - `x, X` - delete, backspace
@@ -174,9 +178,17 @@ https://linuxize.com/post/vim-find-replace/
 - `i` - case in-sensitive (you can also use `:s/pattern\c/string`)
 - `I` - case-sensitive (you can also use `:s/pattern\C/string`)
 
+## Marks
+- `m<NAME>` - create mark on this line
+  - `name` - lowercase letter - local mark
+  - `NAME` - uppercase letter - global mark
+- `/`<NAME>` - jump to mark
+- `'<NAME>` - jump to start of the line with the mark
+- `:marks` - list marks
+- `\`\`` - go to position before last jump
+- `:delm <NAMEs>` - delete marks
+- `:delm!` - delete all marks
+- `:ju[mps]` - list all jumps
 
 ## TODO
 - text-objects
-- external commands (:! ls)
-- marks: `m`, ```, `'`, :marks, :delm [!]
-- overAll organization  
