@@ -23,10 +23,12 @@
 ### Commands
 - `:q[!]` - (force) quit
 - `:w [FILENAME]` - save (write) the file
+- `:wqa` - save (write) and quit all buffers  
 - `:x` or `ZZ` - save the file and exit
 - `:r <FILENAME>` - read an external file into this file
 - `:r !<COMMAND>` read external command output into this file (e.g. `:r !ls`)
 - `:<NUMBER>` - go to line
+- `:help [TOPIC]` - show help
 
 ## Navigation
 - `h, j, k, l`  - left, down, up, right
@@ -47,7 +49,7 @@
 - `[{, ]}` - next `}` / previous `{`
 - `<NUMBER>|` - jump to column
 
-### Scrolling
+### Jumps & Scrolling
 - `gg` - first line
 - `G` - last line
 - `<NUMBER>G` - go to line number
@@ -71,6 +73,9 @@ _This is mind-blowing example!_
 - `dt"` - delete till `"`
 - `y2/foo` - copy (yank) till the second foo
 - `y'a` - copy (yank) till mark `a`
+- `vi"` - select text in `"` (See _Text objects_)
+- `das` - delete this sentence
+- `v.,/foo` - select text from cursor to `foo`
 
 ## Text manipulation
 - `x, X` - delete, backspace
@@ -101,6 +106,7 @@ https://www.freecodecamp.org/news/vim-editor-modes-explained/
 
 ### Visual mode
 - `v` - enter _visual_ mode
+- `V` - enter line _visual_ mode  
 - `ctrl+v` - enter column _visual_ mode
 - `:w <FILENAME>` - write highlighted part into the file
 
@@ -190,5 +196,17 @@ https://linuxize.com/post/vim-find-replace/
 - `:delm!` - delete all marks
 - `:ju[mps]` - list all jumps
 
-## TODO
-- text-objects
+## Text Objects
+https://blog.carbonfive.com/vim-text-objects-the-definitive-guide/
+```
+[NUMBER][COMMAND]a/i[MOTION]
+```
+- `a` - around word (include surrounding whitespace)
+- `i` - inner word (without whitespace)
+
+### Motions
+- `a/iw` - around/inner word
+- `a/is` - around/inner sentence
+- `a/ip` - around/inner paragraph
+- `a/i",'` - around/inner `", '`
+- `a/i{, [, (` - around/inner `{, [, (`
