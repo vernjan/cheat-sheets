@@ -15,8 +15,9 @@
 - `I` - insert at the beginning of this line 
 - `a` - append after cursor
 - `A` - append at the end of this line
+- `o, O` - insert new line above/below this line
 
-## Command mode  
+## Command mode
 - `ctrl+d` - list completion options 
 - `tab` - completion
 
@@ -29,6 +30,7 @@
 - `:r !<COMMAND>` read external command output into this file (e.g. `:r !ls`)
 - `:<NUMBER>` - go to line
 - `:help [TOPIC]` - show help
+- `:ter` - terminal
 
 ## Navigation
 - `h, j, k, l`  - left, down, up, right
@@ -43,6 +45,10 @@
 - `*, #` - next (previous) occurrence of this word
 - `), (` - next (previous) sentence
 - `}, {` - next (previous) paragraph (empty line)
+- `f<CHARACTER>,F<CHARACTER>` - _find_ - go to next/previous character on the line  
+- `t<CHARACTER>,T<CHARACTER>` - _till_ - go to before next/previous character on the line
+- `;` - repeat last `f,F,t,T` movement  
+- `,` - repeat last `f,F,t,T` movement backwards
 - `]m, [m` - next (previous) start of method (_coding_)
 - `]M, [M` - next (previous) end of method (_coding_)
 - `[(, ])` - next `(` / previous `)`
@@ -52,7 +58,8 @@
 ### Jumps & Scrolling
 - `gg` - first line
 - `G` - last line
-- `<NUMBER>G` - go to line number
+- `<NUMBER>G,<NUMBER>gg` - go to line number
+- `gd` - go to variable/method definition  
 - `H, M, L` - jump to screen position without scrolling (high, middle, low)
 - `ctrl+d, ctrl+u` - scroll half screen down/up
 - `ctrl+f, ctrl+b` - scroll full screen front/back
@@ -72,10 +79,12 @@ _This is mind-blowing example!_
   - `2dd` - delete 2 lines  
 - `dt"` - delete till `"`
 - `y2/foo` - copy (yank) till the second foo
-- `y'a` - copy (yank) till mark `a`
+- `y`a` - copy (yank) till mark `a`
 - `vi"` - select text in `"` (See _Text objects_)
 - `das` - delete this sentence
-- `v.,/foo` - select text from cursor to `foo`
+- `v.,/foo` - select text from the cursor to `foo`
+- `ciw` - change this word
+- `xp` - swap characters
 
 ## Text manipulation
 - `x, X` - delete, backspace
@@ -91,10 +100,12 @@ _This is mind-blowing example!_
 - `s` - substitute (delete character and enter _insert_ mode)
   - `[COUNT]s` - substitute x characters
 - `S, cc` - substitute line (delete line and enter _insert_ mode)
-- `o, O` - insert new line after (before) cursor  
 - `.` - repeat the last _manipulation_ command
-- `~` - change case (upper/lower)
+- `~` - toggle case (upper/lower) of this character
+- `g~<MOVE>` - toggle case (upper/lower) 
+- `gu<MOVE>, gU<MOVE>` - change case to lower/upper
 - `J` - join lines
+- `>>, <<` - indent/unindent line
 
 ## Modes
 https://www.freecodecamp.org/news/vim-editor-modes-explained/
@@ -108,22 +119,26 @@ https://www.freecodecamp.org/news/vim-editor-modes-explained/
 - `v` - enter _visual_ mode
 - `V` - enter line _visual_ mode  
 - `ctrl+v` - enter column _visual_ mode
+- `o, O` - move between start/end of the marked area  
 - `:w <FILENAME>` - write highlighted part into the file
+- `~` - toggle case (upper/lower)
+- `u,U` - change case to (upper/lower)
 
 ## Viewports
-- `:sp[lit]` - split horizontally
-- `:vsp[list]` - split vertically  
+- `:sp[lit], ctrl+w s` - split horizontally
+- `:vsp[lit], ctrl+w v` - split vertically  
+- `ctrl+w q` - close window
 - `ctrl+w <MOVE>` - switch between windows
   - `ctrl+w h,j,k,l` - switch to window in direction
   - `ctrl+w ctrl+w` - switch to the next window
-  - `ctrl+w q` - close window
 
 ## Buffers
 - `:e FILENAME` - load (edit) file (creates new buffer)
-- `:ls` - list buffers
+- `:ls,:buffers` - list buffers
 - `:b <NUMBER/NAME>` - switch to buffer by number or name
-- `:b #` - switch to previous buffer   
-- `:bd` - close buffer
+- `:bn,:bn` - next/previous buffer  
+- `:b#` - switch to previous buffer   
+- `:bd` - delete buffer
 
 ## Copy & Paste
 - `p, P` - paste after/before line (cursor)
@@ -194,7 +209,14 @@ https://linuxize.com/post/vim-find-replace/
 - `\`\`` - go to position before last jump
 - `:delm <NAMEs>` - delete marks
 - `:delm!` - delete all marks
+  
+### Jumps
+https://medium.com/breathe-publication/understanding-vims-jump-list-7e1bfc72cdf0
+
 - `:ju[mps]` - list all jumps
+- `ctrl+i, ctrl+o` - jump forward/back
+- `\`\`` - jump to last position
+- `\`.` - jump to last edit
 
 ## Text Objects
 https://blog.carbonfive.com/vim-text-objects-the-definitive-guide/
@@ -210,3 +232,9 @@ https://blog.carbonfive.com/vim-text-objects-the-definitive-guide/
 - `a/ip` - around/inner paragraph
 - `a/i",'` - around/inner `", '`
 - `a/i{, [, (` - around/inner `{, [, (`
+
+## Macros
+- `q<NAME>` - record macro
+- `q` - stop recording
+- `@<NAME>` - play macro
+- `@@` - re-run last macro
