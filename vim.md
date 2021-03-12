@@ -94,7 +94,7 @@ https://linuxize.com/post/vim-find-replace/
 - `m<NAME>` - create mark on this line
   - `name` - lowercase letter - local mark
   - `NAME` - uppercase letter - global mark
-- `\`<NAME>` - jump to mark
+- ``` `<NAME> ``` - jump to mark
 - `'<NAME>` - jump to start of the line with the mark
 - `:marks` - list marks
 - `:delm <NAMEs>` - delete marks
