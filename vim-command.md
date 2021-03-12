@@ -13,5 +13,5 @@
 - `:ter` - terminal
 
 ### External commands
-- `:!<COMMAND>` - execute external command (e.g. `:! ls`)
+- `:!<COMMAND>` - execute external command (e.g. `:!ls`)
 - `:r !<COMMAND>` - read external command output into this file (e.g. `:r !ls`)

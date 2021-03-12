@@ -6,4 +6,4 @@
 - `o, O` - move between start/end of the marked area
 - `:w <FILENAME>` - write marked text into the file
 - `~` - toggle case (upper/lower)
-- `u,U` - change case to (upper/lower)
+- `u, U` - change case to (upper/lower)

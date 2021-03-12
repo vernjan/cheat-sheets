@@ -28,7 +28,7 @@ _Whatever is deleted or copied (yanked) goes into registers._
 - `:reg` - show registers
 - `"<REGISTER_NAME>p` - paste from register
 - `"<REGISTER_NAME>y` - copy into register
-- `"<CAPITAL_REGISTER_NAME>y<MOVE>` - append into register
+- `"<CAPITAL_REGISTER_NAME>y` - append into register
 
 ### Types of registers
 _Line (l)_ vs. _Character (c)_
@@ -59,9 +59,9 @@ _Line (l)_ vs. _Character (c)_
 - `:bd` - delete buffer
 
 ## Search
-- `/, ?` - search forward/backward (supports _regex_)
-  - `/foo\c` - case in-sensitive
-  - `/foo\C` - case-sensitive
+- `/pattern, ?pattern` - search forward/backward (supports _regex_)
+  - `/pattern\c` - case in-sensitive
+  - `/pattern\C` - case-sensitive
 - `n, N` - next/previous search result
 - `/ + enter, ? + enter` - repeat the last search
 
@@ -70,14 +70,14 @@ _Line (l)_ vs. _Character (c)_
 - `:set hls` - highlight search results
 - `:set is` - incremental search (jump immediately to results)
 
-## Replace
+## Replace (Substitute)
 https://linuxize.com/post/vim-find-replace/
 
 ```
 :[range]s/{pattern}/{string}/[flags] [count]
 ```
 
-- `:s/pattern/string` - replace once on this line (use empty _string_ for deletion)
+- `:s/pattern/string` - replace (substitute) once on this line (use empty _string_ for deletion)
 - `:%s/pattern/string` - replace once/all (depends on setting) in this buffer (file)
 - `:#,#s/pattern/string` - replace in range
   - `:3,10s/foo/bar/g` - replace from 3rd to 10th line 
@@ -94,9 +94,8 @@ https://linuxize.com/post/vim-find-replace/
 - `m<NAME>` - create mark on this line
   - `name` - lowercase letter - local mark
   - `NAME` - uppercase letter - global mark
-- `/`<NAME>` - jump to mark
+- `\`<NAME>` - jump to mark
 - `'<NAME>` - jump to start of the line with the mark
-- `\`\`` - jump to position before last jump
 - `:marks` - list marks
 - `:delm <NAMEs>` - delete marks
 - `:delm!` - delete all local marks
