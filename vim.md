@@ -105,8 +105,8 @@ https://medium.com/breathe-publication/understanding-vims-jump-list-7e1bfc72cdf0
 
 - `:ju[mps]` - list all jumps
 - `ctrl+i, ctrl+o` - jump forward/back
-- `\`\`` - jump to last position
-- `\`.` - jump to last edit
+- ``` `` ``` - jump to last position
+- ``` `. ``` - jump to last edit
 
 ## Text Objects
 https://blog.carbonfive.com/vim-text-objects-the-definitive-guide/
@@ -138,7 +138,7 @@ https://blog.carbonfive.com/vim-text-objects-the-definitive-guide/
   - `2dd` - delete 2 lines
 - `dt"` - delete till `"`
 - `y2/foo` - copy (yank) till the second foo
-- `y`a` - copy (yank) till mark `a`
+- ``` y`a ``` - copy (yank) till mark `a`
 - `vi"` - select text in `"` (See _Text objects_)
 - `das` - delete this sentence
 - `v.,/foo` - select text from the cursor to `foo`
