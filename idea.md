@@ -1,27 +1,10 @@
 # IntelliJ IDEA
 
-## Usage search
-- find usages (tool window) - option+f7
-- find usages (in file) - cmd+f7
-- highlight usages in file (shift+cmd+F7)
-    - cmd+g / shift+cmd+g - navigate forward/back
-    
-## Navigation
-- go to class (cmd+o)
-- go to file (shift+cmd+o)  
-- go to editor  (from tool window) (esc)  
-- hide active or last active windows (shift+esc)
-- go to declaration (ctrl+click, cmd+b)
-- file structure popup (cmd+F12)
-- call hierarchy: callers/callees (ctrl+option+h)
-- ! switch between class and test  class (shift+cmd+t)
-- navigate back/forward (cmd+option+left / cmd+option+right)
-- recent locations (shift+cmd+e)
-
-## General
-- switch between tabs and tool windows (ctrl+tab)
-
 ## Editing
+- `ctrl+space` - basic code completion
+- `ctrl+shift+space` - smart code completion
+- `cmd+shift+enter` - complete statement  
+
 - show intention and quick fixes (option+enter)
 - increasingly select code blocks (option+up)
     - revert with (option+down)
@@ -36,6 +19,33 @@
 - join lines (ctrl+shift+j)
 - close active editor tab (cmd+w)
 - toggle upper/lower case (cmd+shift+u)
+
+## Usage search
+- search everywhere (shift+shift)
+    - go to class (cmd+o)
+    - go to file (shift+cmd+o)
+    - go to symbol (alt+cmd+o)
+    - find action (shift+cmd+a)
+- find usages (tool window) - option+f7
+- find usages (in file) - cmd+f7
+- highlight usages in file (shift+cmd+F7)
+    - cmd+g / shift+cmd+g - navigate forward/back
+    
+## Navigation
+
+- go to editor  (from tool window) (esc)  
+- hide active or last active windows (shift+esc)
+- go to declaration (ctrl+click, cmd+b)
+- file structure popup (cmd+F12)
+- call hierarchy: callers/callees (ctrl+option+h)
+- ! switch between class and test  class (shift+cmd+t)
+- navigate back/forward (cmd+option+left / cmd+option+right)
+- recent locations (shift+cmd+e)
+- type hierarchy (ctrl+h)
+
+## General
+- switch between tabs and tool windows (ctrl+tab)
+- run anything (ctrl+ctrl)
 
 ## Search/Replace
 - find (cmd+f)
