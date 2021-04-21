@@ -1,9 +1,15 @@
 # IntelliJ IDEA
 
+https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
+
 ## Editing
-- `ctrl+space` - basic code completion
-- `ctrl+shift+space` - smart code completion
-- `cmd+shift+enter` - complete statement  
+- `ctrl + space` - basic code completion
+- `ctrl + shift + space` - smart code completion
+- `ctrl + shift + enter` - complete statement (`cmd + shift + enter`)
+- `ctrl + p` - parameter info (`cmd + p`)
+- `ctrl + q` - quick documentation lookup (`cmd + j`, `F1`)
+- `ctrl + mouse` - brief info (`cmd + mouse`)
+  
 
 - show intention and quick fixes (option+enter)
 - increasingly select code blocks (option+up)
@@ -46,6 +52,7 @@
 ## General
 - switch between tabs and tool windows (ctrl+tab)
 - run anything (ctrl+ctrl)
+- external documentation (F1 - win only)
 
 ## Search/Replace
 - find (cmd+f)
@@ -86,5 +93,6 @@
 - refresh (cmd+r)
 - next/previous issue (f2/shift+f2)
 - new scratch file (shift+cmd+n)
+- new in this directory  
 - quick documentation (f1 / ctrl+j)
 
