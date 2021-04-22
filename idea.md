@@ -4,12 +4,19 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 ## Editing
 - `ctrl + space` - basic code completion
+  - `enter` - insert
+  - `tab` - replace
 - `ctrl + shift + space` - smart code completion
 - `ctrl + shift + enter` - complete statement (`cmd + shift + enter`)
 - `ctrl + p` - parameter info (`cmd + p`)
 - `ctrl + q` - quick documentation lookup (`cmd + j`, `F1`)
-- `ctrl + mouse` - brief info (`cmd + mouse`)
+- `ctrl + mouse` - brief info, resolves `var` (`cmd + mouse`)
+- `ctrl + F1` - show descriptions of error or warning at caret (`cmd + F1`)
+
   
+
+- `alt + mouse drag` - rectangular select
+- `shift + alt + enter` - apply suggested fix
 
 - show intention and quick fixes (option+enter)
 - increasingly select code blocks (option+up)
@@ -52,7 +59,6 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 ## General
 - switch between tabs and tool windows (ctrl+tab)
 - run anything (ctrl+ctrl)
-- external documentation (F1 - win only)
 
 ## Search/Replace
 - find (cmd+f)
@@ -93,6 +99,5 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - refresh (cmd+r)
 - next/previous issue (f2/shift+f2)
 - new scratch file (shift+cmd+n)
-- new in this directory  
 - quick documentation (f1 / ctrl+j)
 
