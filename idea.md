@@ -12,7 +12,8 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + q` - quick documentation lookup (`cmd + j`, `F1`)
 - `ctrl + mouse` - brief info, resolves `var` (`cmd + mouse`)
 - `ctrl + F1` - show descriptions of error or warning at caret (`cmd + F1`)
-
+- `alt + insert` - generate code (`cmd + n`)
+- `ctrl + o` - override methods
   
 
 - `alt + mouse drag` - rectangular select
@@ -101,3 +102,4 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - new scratch file (shift+cmd+n)
 - quick documentation (f1 / ctrl+j)
 
+ctrl + tab
