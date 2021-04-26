@@ -14,6 +14,8 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + F1` - show descriptions of error or warning at caret (`cmd + F1`)
 - `alt + insert` - generate code (`cmd + n`)
 - `ctrl + o` - override methods
+- `ctrl + i` - implement methods
+- `ctrl + alt + t` - surround with (if, else, try, catch, ..) (`cmd + alt + t`)
   
 
 - `alt + mouse drag` - rectangular select
