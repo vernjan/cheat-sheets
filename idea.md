@@ -10,6 +10,9 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
     - `tab` - replace
 
 
+- `alt + enter` - show intention actions and quick-fixes
+
+
 - `ctrl + shift + enter` - complete statement (`cmd + shift + enter`)
   
 
@@ -32,6 +35,10 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + w` - extend selection
 - `ctrl + shift + w` - shrink selection
 
+
+- `ctrl + alt + l` - reformat code (`cmd + alt + l`)
+- `ctrl + alt + o` - optimize imports (`ctrl + alt + o`)
+- `ctrl + alt + i` - auto-indent line(s) (`ctrl + alt + i`)
 
 
 
@@ -82,6 +89,8 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 F2/shift + F2
 - `ctrl + F1` - show descriptions of error or warning at caret (`cmd + F1`)
 
+`cmd + shift + ]` - next tab
+`cmd + shift + [` - previous tab
 
 ## General
 
