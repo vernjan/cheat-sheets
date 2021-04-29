@@ -41,6 +41,11 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + alt + i` - auto-indent line(s) (`ctrl + alt + i`)
 
 
+- `ctrl + c` - copy line (`cmd + c`)
+- `ctrl + x` - cut line (`cmd + x`)
+- `ctrl + d` - duplicate line (`cmd + d`)
+- `ctrl + y` - delete line (`cmd + backspace`)
+- `ctrl + shift + v` - paste from recent buffers ("local clipboard history") (`cmd + shift +v`)
 
 
 
