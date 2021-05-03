@@ -105,6 +105,12 @@ ctrl + tab
 
 - `ctrl + f4` - close active tab (`cmd + w`)
 
+- TODO open Preferences (`cmd + ,`)
+- TODO open Project structure (`cmd + ;`)
+
+- TODO new scratch file (`cmd + shift + n`)
+- TODO new file, source, diagram, ...  (`cmd + n)`
+
 ## Search/Replace
 
 - find (cmd+f)
