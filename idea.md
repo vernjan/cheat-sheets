@@ -62,8 +62,8 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `alt + shift + insert` - column selection mode (`cmd + shift + 8`)
 
 
-- TODO swap lines (`alt + shift + up/down`)
-- TODO swap methods/blocks (`cmd + shift + up/down`)
+- `alt + shift + up/down` - swap lines
+- `ctrl + shift + up/down` - swap methods/blocks (`cmd + shift + up/down`)
 
 
 ## Usage search
