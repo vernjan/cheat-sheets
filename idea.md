@@ -10,10 +10,12 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
     - `tab` - replace
 
 
-- `alt + enter` - show intention actions and quick-fixes
-
-
 - `ctrl + shift + enter` - complete statement (`cmd + shift + enter`)
+
+
+- `alt + enter` - show intention actions and quick-fixes
+- `ctrl + F1` - show descriptions of error or warning at caret (`cmd + F1`)
+    - `alt + shift + enter` - apply suggested fix
   
 
 - `ctrl + p` - parameter info (`cmd + p`)
@@ -32,8 +34,8 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + shift + /` - comment / uncomment with block comment (`cmd + alt + /`)
 
 
-- `ctrl + w` - extend selection
-- `ctrl + shift + w` - shrink selection
+- `ctrl + w` - extend selection (`alt + up`)
+- `ctrl + shift + w` - shrink selection (`alt + down`)
 
 
 - `ctrl + alt + l` - reformat code (`cmd + alt + l`)
@@ -43,29 +45,26 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 - `ctrl + c` - copy line (`cmd + c`)
 - `ctrl + x` - cut line (`cmd + x`)
-- `ctrl + d` - duplicate line (`cmd + d`)
-- `ctrl + y` - delete line (`cmd + backspace`)
 - `ctrl + shift + v` - paste from recent buffers ("local clipboard history") (`cmd + shift +v`)
 
 
+- `ctrl + d` - duplicate line (`cmd + d`)
+- `ctrl + y` - delete line (`cmd + backspace`)
+- `ctrl + shift + j` - join lines
+- `shift + enter` - start new line (the current line remains unchanged)
+- `ctrl + enter` - new line, don't move the cursor (`cmd + enter`)
 
-- `alt + mouse drag` - rectangular select
-- `shift + alt + enter` - apply suggested fix
 
-- show intention and quick fixes (option+enter)
-- increasingly select code blocks (option+up)
-    - revert with (option+down)
-- ! switch lines
-- ! switch methods/blocks
-- reformat code (cmd+option+l)
-- (enter) - new line
-  (cmd+enter) - new line, don't move cursor
-  (shift+enter) - new line, don't split the current line
-- indent/unindent line(s) (tab / shift+tab)
-- comment/uncomment with line comment (cmd+/)
-- join lines (ctrl+shift+j)
-- close active editor tab (cmd+w)
-- toggle upper/lower case (cmd+shift+u)
+- `ctrl + shift + u` - toggle word (selected block) case
+
+
+- `alt + mouse drag` - column (rectangular) select
+- `alt + shift + insert` - column selection mode (`cmd + shift + 8`)
+
+
+- TODO swap lines (`alt + shift + up/down`)
+- TODO swap methods/blocks (`cmd + shift + up/down`)
+
 
 ## Usage search
 
@@ -92,7 +91,9 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - type hierarchy (ctrl+h)
 
 F2/shift + F2
-- `ctrl + F1` - show descriptions of error or warning at caret (`cmd + F1`)
+
+ctrl + tab
+
 
 `cmd + shift + ]` - next tab
 `cmd + shift + [` - previous tab
@@ -101,6 +102,8 @@ F2/shift + F2
 
 - switch between tabs and tool windows (ctrl+tab)
 - run anything (ctrl+ctrl)
+
+- `ctrl + f4` - close active tab (`cmd + w`)
 
 ## Search/Replace
 
