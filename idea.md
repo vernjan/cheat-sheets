@@ -55,10 +55,15 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + enter` - new line, don't move the cursor (`cmd + enter`)
 
 
+- `ctrl + backspace/delete` - delete to word start/end
+- 🆕 `ctrl + shift + backspace/delete` - delete to line start/end 
+
+
 - `ctrl + shift + u` - toggle word (selected block) case
 
 
 - `alt + mouse drag` - column (rectangular) select
+- `alt + shift + click` - add new caret (multiple cursors) TODO
 - `alt + shift + insert` - column selection mode (`cmd + shift + 8`)
 
 
@@ -66,7 +71,13 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + shift + up/down` - swap methods/blocks (`cmd + shift + up/down`)
 
 
+- `ctrl + shift + [ / ]` - select till code block start/end
+
+TODO - Annotate with emojis: CUSTOM, WELL-KNOWN, NEW
+
 ## Usage search
+
+select all occurrences (`ctrl + cmd + g`)
 
 - search everywhere (shift+shift)
     - go to class (cmd+o)
@@ -93,6 +104,8 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 F2/shift + F2
 
 ctrl + tab
+
+
 
 
 `cmd + shift + ]` - next tab
