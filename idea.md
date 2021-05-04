@@ -62,8 +62,9 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + shift + u` - toggle word (selected block) case
 
 
+- `alt + shift + click/drag` - add new caret (multiple cursors), multi-select
 - `alt + mouse drag` - column (rectangular) select
-- `alt + shift + click` - add new caret (multiple cursors) TODO
+- `alt + shift + g` - move all carets to line ends  
 - `alt + shift + insert` - column selection mode (`cmd + shift + 8`)
 
 
