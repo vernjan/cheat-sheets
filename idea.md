@@ -4,77 +4,71 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 ## Editing
 
-- `ctrl + space` - basic code completion
+### Code completion
+
+- `ctrl + space` - basic code completion ✔️
 - `ctrl + shift + space` - smart code completion
     - `enter` - insert
     - `tab` - replace
-
-
 - `ctrl + shift + enter` - complete statement (`cmd + shift + enter`)
-
-
-- `alt + enter` - show intention actions and quick-fixes
+- `alt + enter` - show intention actions and quick-fixes ✔️
 - `ctrl + F1` - show descriptions of error or warning at caret (`cmd + F1`)
     - `alt + shift + enter` - apply suggested fix
-  
 
+### Code generation
+- `alt + insert` - generate code (`cmd + n`)
+- `ctrl + alt + t` - surround with (if, else, try, catch, ..) (`cmd + alt + t`)
+- `ctrl + o` - override methods
+- `ctrl + i` - implement methods
+  
+### Context info
 - `ctrl + p` - parameter info (`cmd + p`)
 - `ctrl + mouse` - brief info, resolves `var` type (`cmd + mouse`)
 - `ctrl + q` - quick documentation lookup (`cmd + j`, `F1`)
 - `alt + q` - context info (current method, class) (`ctrl + shift + q`)
 
+### Text manipulation
+- `ctrl + d` - duplicate line (`cmd + d`) ✔️
+- `ctrl + y` - delete line (`cmd + backspace`) ✔️
+- `ctrl + shift + j` - join lines ✔
+- `shift + enter` - start new line (the current line remains unchanged) ✔️
+- `ctrl + enter` - new line, don't move the cursor (`cmd + enter`)
 
-- `alt + insert` - generate code (`cmd + n`)
-- `ctrl + alt + t` - surround with (if, else, try, catch, ..) (`cmd + alt + t`)
-- `ctrl + o` - override methods
-- `ctrl + i` - implement methods
+- `ctrl + backspace/delete` - delete to word start/end
+- `ctrl + shift + backspace/delete` - delete to line start/end 🆕
 
-
-- `ctrl + /` - comment / uncomment with line comment (`cmd + /`)
-- `ctrl + shift + /` - comment / uncomment with block comment (`cmd + alt + /`)
-
-
-- `ctrl + w` - extend selection (`alt + up`)
-- `ctrl + shift + w` - shrink selection (`alt + down`)
-
-
-- `ctrl + alt + l` - reformat code (`cmd + alt + l`)
-- `ctrl + alt + o` - optimize imports (`ctrl + alt + o`)
-- `ctrl + alt + i` - auto-indent line(s) (`ctrl + alt + i`)
-
+- `alt + shift + up/down` - swap lines ✔
+- `ctrl + shift + up/down` - swap methods/blocks (`cmd + shift + up/down`) ✔
 
 - `ctrl + c` - copy line (`cmd + c`)
 - `ctrl + x` - cut line (`cmd + x`)
 - `ctrl + shift + v` - paste from recent buffers ("local clipboard history") (`cmd + shift +v`)
 
-
-- `ctrl + d` - duplicate line (`cmd + d`)
-- `ctrl + y` - delete line (`cmd + backspace`)
-- `ctrl + shift + j` - join lines
-- `shift + enter` - start new line (the current line remains unchanged)
-- `ctrl + enter` - new line, don't move the cursor (`cmd + enter`)
-
-
-- `ctrl + backspace/delete` - delete to word start/end
-- 🆕 `ctrl + shift + backspace/delete` - delete to line start/end 
-
-
 - `ctrl + shift + u` - toggle word (selected block) case
 
-
 - `alt + shift + click/drag` - add new caret (multiple cursors), multi-select
-- `alt + mouse drag` - column (rectangular) select
-- `alt + shift + g` - move all carets to line ends  
-- `alt + shift + insert` - column selection mode (`cmd + shift + 8`)
+- `alt + shift + g` - move all carets to line ends
 
-
-- `alt + shift + up/down` - swap lines
-- `ctrl + shift + up/down` - swap methods/blocks (`cmd + shift + up/down`)
-
-
+### Text selection
+- `ctrl + w` - extend selection (`alt + up`) ✔️
+- `ctrl + shift + w` - shrink selection (`alt + down`) ✔️
+  
 - `ctrl + shift + [ / ]` - select till code block start/end
 
-TODO - Annotate with emojis: CUSTOM, WELL-KNOWN, NEW
+- `alt + mouse drag` - column (rectangular) select
+- `alt + shift + insert` - column selection mode (`cmd + shift + 8`)
+
+### Code formatting
+- `ctrl + alt + l` - reformat code (`cmd + alt + l`) ✔
+- `ctrl + alt + o` - optimize imports (`ctrl + alt + o`) ✔
+- `ctrl + alt + i` - auto-indent line(s) (`ctrl + alt + i`)
+
+### Others
+- `ctrl + +/-` - expand/collapse block
+- `ctrl + shift + +/-` - expand/collapse all
+
+- `ctrl + /` - comment / uncomment with line comment (`cmd + /`) ✔
+- `ctrl + shift + /` - comment / uncomment with block comment (`cmd + alt + /`) ✔
 
 ## Usage search
 
