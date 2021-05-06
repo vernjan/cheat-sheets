@@ -21,7 +21,7 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + o` - override methods
 - `ctrl + i` - implement methods
   
-### Context info
+### Code info
 - `ctrl + p` - parameter info (`cmd + p`)
 - `ctrl + mouse` - brief info, resolves `var` type (`cmd + mouse`)
 - `ctrl + q` - quick documentation lookup (`cmd + j`, `F1`)
@@ -46,8 +46,10 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 - `ctrl + shift + u` - toggle word (selected block) case
 
-- `alt + shift + click/drag` - add new caret (multiple cursors), multi-select
-- `alt + shift + g` - move all carets to line ends
+### Multi-cursors
+- `alt + shift + click` - add new cursors, multi-select
+- `alt + shift + g` - move all cursors to line ends
+- `TODO` - select all occurrences of the current word and add cursors (`ctrl + cmd + g`)
 
 ### Text selection
 - `ctrl + w` - extend selection (`alt + up`) ✔️
@@ -57,6 +59,8 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 - `alt + mouse drag` - column (rectangular) select
 - `alt + shift + insert` - column selection mode (`cmd + shift + 8`)
+
+- `alt + shift + drag` - multi-select
 
 ### Code formatting
 - `ctrl + alt + l` - reformat code (`cmd + alt + l`) ✔
@@ -72,17 +76,11 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 ## Usage search
 
-select all occurrences (`ctrl + cmd + g`)
-
-- search everywhere (shift+shift)
-    - go to class (cmd+o)
-    - go to file (shift+cmd+o)
-    - go to symbol (alt+cmd+o)
-    - find action (shift+cmd+a)
-- find usages (tool window) - option+f7
-- find usages (in file) - cmd+f7
-- highlight usages in file (shift+cmd+F7)
-    - cmd+g / shift+cmd+g - navigate forward/back
+- `alt + f7` - find usages (tool window)
+- `ctrl + f7` - highlight usages in file (`cmd + f7`)
+    - `f3` - next usage (`cmd + g`)
+    - `shift + f3` - previous usage (`cmd + shift + g`)
+- `ctrl + alt + f7` - show usages in file (popup) (`cmd + alt + f7`)
 
 ## Navigation
 
@@ -99,6 +97,12 @@ select all occurrences (`ctrl + cmd + g`)
 F2/shift + F2
 
 ctrl + tab
+
+- search everywhere (shift+shift)
+    - go to class (cmd+o)
+    - go to file (shift+cmd+o)
+    - go to symbol (alt+cmd+o)
+    - find action (shift+cmd+a)
 
 
 
