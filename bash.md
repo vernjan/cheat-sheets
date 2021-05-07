@@ -1,10 +1,11 @@
 # Shell
 
-
 TODO
-https://blog.ssdnodes.com/blog/cheatsheet-bash-shortcuts/
-https://github.com/fliptheweb/bash-shortcuts-cheat-sheet
+
+https://blog.ssdnodes.com/blog/cheatsheet-bash-shortcuts/  
+https://github.com/fliptheweb/bash-shortcuts-cheat-sheet  
 https://ostechnix.com/list-useful-bash-keyboard-shortcuts/
+
 
 - ctrl+x+e - edit command in $EDITOR
 
@@ -21,3 +22,5 @@ https://ostechnix.com/list-useful-bash-keyboard-shortcuts/
 
 - ctrl+f - move one character forward
 - ctrl+b - move one character backward
+
+- ctrl+z - send to background

@@ -49,7 +49,7 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 ### Multi-cursors
 - `alt + shift + click` - add new cursors, multi-select
 - `alt + shift + g` - move all cursors to line ends
-- `TODO` - select all occurrences of the current word and add cursors (`ctrl + cmd + g`)
+- `ctrl + alt + shift + j` - select all occurrences of the current word and add cursors (`ctrl + cmd + g`)
 
 ### Text selection
 - `ctrl + w` - extend selection (`alt + up`) ✔️
@@ -89,7 +89,7 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + n` - search class (`cmd + o`) ✔
 - `ctrl + shift + n` - search file (`cmd + shift + o`) ✔
 - `ctrl + alt + shift + n` - search symbol (`cmd + alt + o`)  
-- TODO - search action (`cmd + shift + a`)
+- `ctrl + shift + a` - search action (`cmd + shift + a`)
 
 
 - go to editor  (from tool window) (esc)
