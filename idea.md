@@ -84,10 +84,10 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 ## Navigation
 
-- `shift + shift` - search everywhere
+- `shift + shift` - search everywhere ✔
   - `/` to limit search for commands
-- `ctrl + n` - search class (`cmd + o`)
-- `ctrl + shift + n` - search file (`cmd + shift + o`)
+- `ctrl + n` - search class (`cmd + o`) ✔
+- `ctrl + shift + n` - search file (`cmd + shift + o`) ✔
 - `ctrl + alt + shift + n` - search symbol (`cmd + alt + o`)  
 - TODO - search action (`cmd + shift + a`)
 
