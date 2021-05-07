@@ -84,6 +84,14 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 ## Navigation
 
+- `shift + shift` - search everywhere
+  - `/` to limit search for commands
+- `ctrl + n` - search class (`cmd + o`)
+- `ctrl + shift + n` - search file (`cmd + shift + o`)
+- `ctrl + alt + shift + n` - search symbol (`cmd + alt + o`)  
+- TODO - search action (`cmd + shift + a`)
+
+
 - go to editor  (from tool window) (esc)
 - hide active or last active windows (shift+esc)
 - go to declaration (ctrl+click, cmd+b)
@@ -98,11 +106,7 @@ F2/shift + F2
 
 ctrl + tab
 
-- search everywhere (shift+shift)
-    - go to class (cmd+o)
-    - go to file (shift+cmd+o)
-    - go to symbol (alt+cmd+o)
-    - find action (shift+cmd+a)
+
 
 
 

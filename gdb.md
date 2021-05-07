@@ -54,4 +54,6 @@ https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
 
 https://gef.readthedocs.io/en/master/
 
+- `checksec` - print which security protections are enabled in a binary
+- `vmmap` - display memory space mapping  
 - `got` - print _Global offset table_
