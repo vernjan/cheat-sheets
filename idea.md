@@ -91,9 +91,12 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + alt + shift + n` - search symbol (`cmd + alt + o`)  
 - `ctrl + shift + a` - search action (`cmd + shift + a`)
 
+- `alt + left/right` - go to previous/next tab (`ctrl + left/right`)
+- `ctrl + tab` - tab & tool switcher
+- `f12` - go to previous tool window
+- `escape` - go to editor (from tool window)
+- `shift + escape` - hide active (or last active) window
 
-- go to editor  (from tool window) (esc)
-- hide active or last active windows (shift+esc)
 - go to declaration (ctrl+click, cmd+b)
 - file structure popup (cmd+F12)
 - call hierarchy: callers/callees (ctrl+option+h)
@@ -104,10 +107,6 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 F2/shift + F2
 
-ctrl + tab
-
-
-
 
 
 
@@ -116,7 +115,6 @@ ctrl + tab
 
 ## General
 
-- switch between tabs and tool windows (ctrl+tab)
 - run anything (ctrl+ctrl)
 
 - `ctrl + f4` - close active tab (`cmd + w`)
