@@ -96,13 +96,20 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `f12` - go to previous tool window
 - `escape` - go to editor (from tool window)
 - `shift + escape` - hide active (or last active) window
+  
+- `ctrl + g` - go to line (`cmd + l`)
+  
+- `ctrl + e` - recent files popup (`cmd + e`)
+    - `ctrl + e` - recent edited files
+- `ctrl + shift + e` - recent locations popup (`cmd + shift + e`)    
+    - `ctrl + shift + e` recent edited locations
+
 
 - go to declaration (ctrl+click, cmd+b)
 - file structure popup (cmd+F12)
 - call hierarchy: callers/callees (ctrl+option+h)
 - ! switch between class and test class (shift+cmd+t)
 - navigate back/forward (cmd+option+left / cmd+option+right)
-- recent locations (shift+cmd+e)
 - type hierarchy (ctrl+h)
 
 F2/shift + F2
