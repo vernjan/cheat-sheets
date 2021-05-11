@@ -94,10 +94,10 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `alt + left/right` - go to previous/next tab (`ctrl + left/right`)
 - `ctrl + tab` - tab & tool switcher
 - `f12` - go to previous tool window
-- `escape` - go to editor (from tool window)
-- `shift + escape` - hide active (or last active) window
+- `escape` - go to editor (from tool window) ✔
+- `shift + escape` - hide active (or last active) window ✔
   
-- `ctrl + g` - go to line (`cmd + l`)
+- `ctrl + g` - go to line (`cmd + l`) ✔
   
 - `ctrl + e` - recent files popup (`cmd + e`)
     - `ctrl + e` - recent edited files
