@@ -24,8 +24,10 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 ### Code info
 - `ctrl + p` - parameter info (`cmd + p`)
 - `ctrl + mouse` - brief info, resolves `var` type (`cmd + mouse`)
-- `ctrl + q` - quick documentation lookup (`cmd + j`, `F1`)
+- `ctrl + q` - quick documentation lookup (`ctrl + j`, `F1`)
 - `alt + q` - context info (current method, class) (`ctrl + shift + q`)
+- `TODO` - expression type info (`ctrl + shift + p`)
+- `TODO` - quick definition (`alt + space`)
 
 ### Text manipulation
 - `ctrl + d` - duplicate line (`cmd + d`) ✔️
