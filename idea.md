@@ -10,23 +10,23 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + shift + space` - smart code completion
     - `enter` - insert
     - `tab` - replace
-- `ctrl + shift + enter` - complete statement (`cmd + shift + enter`)
+- `ctrl + shift + enter` - complete statement (`cmd + shift + enter`) ⚡
 - `alt + enter` - show intention actions and quick-fixes ✔️
 - `ctrl + F1` - show descriptions of error or warning at caret (`cmd + F1`)
     - `alt + shift + enter` - apply suggested fix
 
 ### Code generation
-- `alt + insert` - generate code (`cmd + n`)
-- `ctrl + alt + t` - surround with (if, else, try, catch, ..) (`cmd + alt + t`)
+- `alt + insert` - generate code (`cmd + n`) ⚡
+- `ctrl + alt + t` - surround with (if, else, try, catch, ..) (`cmd + alt + t`) ⚡
 - `ctrl + o` - override methods
 - `ctrl + i` - implement methods
   
 ### Code info
-- `ctrl + p` - parameter info (`cmd + p`)
+- `ctrl + p` - parameter info (`cmd + p`) ⚡
 - `ctrl + mouse` - brief info, resolves `var` type (`cmd + mouse`)
 - `ctrl + q` - quick documentation lookup (`ctrl + j`, `F1`)
 - `alt + q` - context info (current method, class) (`ctrl + shift + q`)
-- `ctrl + shift + p` - expression type info
+- `ctrl + shift + p` - expression type info ⚡
 - `ctrl + shift + i` - quick definition (`alt + space`)
 
 ### Text manipulation
@@ -35,34 +35,27 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + shift + j` - join lines ✔
 - `shift + enter` - start new line (the current line remains unchanged) ✔️
 - `ctrl + enter` - new line, don't move the cursor (`cmd + enter`)
-
-- `ctrl + backspace/delete` - delete to word start/end
-- `ctrl + shift + backspace/delete` - delete to line start/end 🆕
-
+- `ctrl + backspace/delete` - delete to word start/end ⚡
+- `ctrl + shift + backspace/delete` - delete to line start/end ⭐
 - `alt + shift + up/down` - swap lines ✔
 - `ctrl + shift + up/down` - swap methods/blocks (`cmd + shift + up/down`) ✔
-
-- `ctrl + c` - copy line (`cmd + c`)
-- `ctrl + x` - cut line (`cmd + x`)
+- `ctrl + c` - copy line (`cmd + c`) ✔️
+- `ctrl + x` - cut line (`cmd + x`) ✔️
 - `ctrl + shift + v` - paste from recent buffers ("local clipboard history") (`cmd + shift +v`)
-
-- `ctrl + shift + u` - toggle word (selected block) case
+- `ctrl + shift + u` - toggle word (selected block) case ✔️
 
 ### Multi-cursors
-- `alt + shift + click` - add new cursors, multi-select
-- `alt + shift + g` - move all cursors to line ends
-- `ctrl + alt + shift + j` - select all occurrences of the current word and add cursors (`ctrl + cmd + g`)
+- `alt + shift + click` - add new cursors, multi-select ⚡
+- `alt + shift + drag` - multi-select
+- `alt + shift + g` - move all cursors to line ends ⚡
+- `ctrl + alt + shift + j` - select all occurrences of the current word and add cursors (`ctrl + cmd + g`) ⚡
 
 ### Text selection
 - `ctrl + w` - extend selection (`alt + up`) ✔️
 - `ctrl + shift + w` - shrink selection (`alt + down`) ✔️
-  
 - `ctrl + shift + [ / ]` - select till code block start/end
-
-- `alt + mouse drag` - column (rectangular) select
-- `alt + shift + insert` - column selection mode (`cmd + shift + 8`)
-
-- `alt + shift + drag` - multi-select
+- `alt + mouse drag` - column (rectangular) select ⚡
+- `alt + shift + insert` - column selection mode (`cmd + shift + 8`) ✔️
 
 ### Code formatting
 - `ctrl + alt + l` - reformat code (`cmd + alt + l`) ✔
@@ -70,22 +63,35 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + alt + i` - auto-indent line(s) (`ctrl + alt + i`)
 
 ### Others
-- `ctrl + +/-` - expand/collapse block
+- `ctrl + +/-` - expand/collapse block ⚡
 - `ctrl + shift + +/-` - expand/collapse all
-
 - `ctrl + /` - comment / uncomment with line comment (`cmd + /`) ✔
 - `ctrl + shift + /` - comment / uncomment with block comment (`cmd + alt + /`) ✔
 
 ## Usage search
 
-- `alt + f7` - find usages (tool window)
+- `alt + f7` - find usages (tool window) ✔
 - `ctrl + f7` - highlight usages in file (`cmd + f7`)
-    - `f3` - next usage (`cmd + g`)
-    - `shift + f3` - previous usage (`cmd + shift + g`)
+    - `f3` - next usage (`cmd + g`) ✔
+    - `shift + f3` - previous usage (`cmd + shift + g`) ✔
 - `ctrl + alt + f7` - show usages in file (popup) (`cmd + alt + f7`)
 
 ## Navigation
 
+- `ctrl + g` - go to line (`cmd + l`) ✔
+- `alt + left/right` - go to previous/next tab (`ctrl + left/right`) ⚡
+- `ctrl + alt + left/right` - navigate back/forward (`cmd + alt + left/right`) ✔
+- `ctrl + shift + backspace` - navigate to last edit location (`cmd + shift + backspace`) ⚡
+- `ctrl + tab` - tab & tool switcher ⚡
+- `f12` - go to previous tool window ⚡
+- `escape` - go to editor (from tool window) ✔
+- `shift + escape` - hide active (or last active) window ✔
+- `ctrl + e` - recent files popup (`cmd + e`) ⚡
+    - `ctrl + e` - recent edited files
+- `ctrl + shift + e` - recent locations popup (`cmd + shift + e`) ⚡
+    - `ctrl + shift + e` recent edited locations
+
+### Searching
 - `shift + shift` - search everywhere ✔
   - `/` to limit search for commands
 - `ctrl + n` - search class (`cmd + o`) ✔
@@ -93,43 +99,25 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + alt + shift + n` - search symbol (`cmd + alt + o`)  
 - `ctrl + shift + a` - search action (`cmd + shift + a`)
 
-- `alt + left/right` - go to previous/next tab (`ctrl + left/right`) 💡
-- `ctrl + alt + left/right` - navigate back/forward (`cmd + alt + left/right`) ✔
-- `ctrl + shift + backspace` - navigate to last edit location (`cmd + shift + backspace`) 💡
 
-- `ctrl + tab` - tab & tool switcher 💡
-- `f12` - go to previous tool window
-- `escape` - go to editor (from tool window) ✔
-- `shift + escape` - hide active (or last active) window ✔
-  
-- `alt + f1` - select current file or symbol in any view 💡
-
-- `ctrl + g` - go to line (`cmd + l`) ✔
-  
-- `ctrl + e` - recent files popup (`cmd + e`) 💡
-    - `ctrl + e` - recent edited files
-- `ctrl + shift + e` - recent locations popup (`cmd + shift + e`) 💡
-    - `ctrl + shift + e` recent edited locations
 
 
 - go to declaration (ctrl+click, cmd+b)
 - file structure popup (cmd+F12)
 - call hierarchy: callers/callees (ctrl+option+h)
 - ! switch between class and test class (shift+cmd+t)
-- navigate back/forward (cmd+option+left / cmd+option+right)
 - type hierarchy (ctrl+h)
-
-F2/shift + F2
-
-
-
 
 `cmd + shift + ]` - next tab
 `cmd + shift + [` - previous tab
 
+
+
 ## General
 
 - run anything (ctrl+ctrl)
+
+- `alt + f1` - select current file or symbol in any view ⚡
 
 - `ctrl + f4` - close active tab (`cmd + w`)
 
@@ -179,11 +167,5 @@ F2/shift + F2
 ## Others
 
 - compare (cmd+d)
-- expand (cmd++)
-- collapse (cmd+-)
 - refresh (cmd+r)
 - next/previous issue (f2/shift+f2)
-- new scratch file (shift+cmd+n)
-- quick documentation (f1 / ctrl+j)
-
-ctrl + tab
