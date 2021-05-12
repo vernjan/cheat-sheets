@@ -26,8 +26,8 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + mouse` - brief info, resolves `var` type (`cmd + mouse`)
 - `ctrl + q` - quick documentation lookup (`ctrl + j`, `F1`)
 - `alt + q` - context info (current method, class) (`ctrl + shift + q`)
-- `TODO` - expression type info (`ctrl + shift + p`)
-- `TODO` - quick definition (`alt + space`)
+- `ctrl + shift + p` - expression type info
+- `ctrl + shift + i` - quick definition (`alt + space`)
 
 ### Text manipulation
 - `ctrl + d` - duplicate line (`cmd + d`) ✔️
@@ -93,17 +93,22 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + alt + shift + n` - search symbol (`cmd + alt + o`)  
 - `ctrl + shift + a` - search action (`cmd + shift + a`)
 
-- `alt + left/right` - go to previous/next tab (`ctrl + left/right`)
-- `ctrl + tab` - tab & tool switcher
+- `alt + left/right` - go to previous/next tab (`ctrl + left/right`) 💡
+- `ctrl + alt + left/right` - navigate back/forward (`cmd + alt + left/right`) ✔
+- `ctrl + shift + backspace` - navigate to last edit location (`cmd + shift + backspace`) 💡
+
+- `ctrl + tab` - tab & tool switcher 💡
 - `f12` - go to previous tool window
 - `escape` - go to editor (from tool window) ✔
 - `shift + escape` - hide active (or last active) window ✔
   
+- `alt + f1` - select current file or symbol in any view 💡
+
 - `ctrl + g` - go to line (`cmd + l`) ✔
   
-- `ctrl + e` - recent files popup (`cmd + e`)
+- `ctrl + e` - recent files popup (`cmd + e`) 💡
     - `ctrl + e` - recent edited files
-- `ctrl + shift + e` - recent locations popup (`cmd + shift + e`)    
+- `ctrl + shift + e` - recent locations popup (`cmd + shift + e`) 💡
     - `ctrl + shift + e` recent edited locations
 
 
@@ -128,11 +133,11 @@ F2/shift + F2
 
 - `ctrl + f4` - close active tab (`cmd + w`)
 
-- TODO open Preferences (`cmd + ,`)
-- TODO open Project structure (`cmd + ;`)
+- `ctrl + alt + s` - open Preferences (`cmd + ,`)
+- `ctrl + alt + shift + s` - open Project structure (`cmd + ;`)
 
-- TODO new scratch file (`cmd + shift + n`)
-- TODO new file, source, diagram, ...  (`cmd + n)`
+- `alt + insert` - new file, source, diagram, ...  (`cmd + n)`
+- `ctrl + alt + shift + insert` - new scratch file (`cmd + shift + n`)
 
 ## Search/Replace
 
