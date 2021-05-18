@@ -80,6 +80,7 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 - `ctrl + g` - go to line (`cmd + l`) ✔
 - `alt + left/right` - go to previous/next tab (`ctrl + left/right`) ⚡
+  `ctrl + alt + ]/[` - switch to previous/next IntelliJ IDEA window ⚡
 - `ctrl + alt + left/right` - navigate back/forward (`cmd + alt + left/right`) ✔
 - `ctrl + shift + backspace` - navigate to last edit location (`cmd + shift + backspace`) ⚡
 - `ctrl + tab` - tab & tool switcher ⚡
@@ -99,19 +100,13 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + alt + shift + n` - search symbol (`cmd + alt + o`)  
 - `ctrl + shift + a` - search action (`cmd + shift + a`)
 
+### Hierarchies
+- `ctrl + f12` - file structure popup (`cmd + f12`) ✔
+- `ctrl + h` - type hierarchy
+- `ctrl + shift + h` - method hierarchy (`cmd + shift + h`)
+- `ctrl + alt + h` - call hierarchy ✔
 
-
-
-- go to declaration (ctrl+click, cmd+b)
-- file structure popup (cmd+F12)
-- call hierarchy: callers/callees (ctrl+option+h)
-- ! switch between class and test class (shift+cmd+t)
-- type hierarchy (ctrl+h)
-
-`cmd + shift + ]` - next tab
-`cmd + shift + [` - previous tab
-
-
+- `ctrl + shift + m` - move caret to matching brace
 
 ## General
 
@@ -126,6 +121,8 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 - `alt + insert` - new file, source, diagram, ...  (`cmd + n)`
 - `ctrl + alt + shift + insert` - new scratch file (`cmd + shift + n`)
+
+- `alt + home` - jump to navigation bar
 
 ## Search/Replace
 
@@ -168,4 +165,5 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 - compare (cmd+d)
 - refresh (cmd+r)
-- next/previous issue (f2/shift+f2)
+
+- ! switch between class and test class (shift+cmd+t)
