@@ -91,10 +91,18 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
     - `ctrl + e` - recent edited files
 - `ctrl + shift + e` - recent locations popup (`cmd + shift + e`) ⚡
     - `ctrl + shift + e` recent edited locations
+- `ctrl + b / ctrl + click` - go to declaration ✔
+- `ctrl + shift + b` - go to type declaration ⚡
+- `ctrl + alt + b` - go to implementations (`cmd + shift + b`) ⚡
+- `ctrl + u` - go to super class/method (`cmd + u`) ⚡
+- `alt + space` - quick definition lookup
+- `alt + up/down` - go to previous/next method
+
 
 ### Searching
 - `shift + shift` - search everywhere ✔
-  - `/` to limit search for commands
+  - `/` - limit search for commands
+  - `/url/` - limit search for URL mappings (web endpoints) ⚡  
 - `ctrl + n` - search class (`cmd + o`) ✔
 - `ctrl + shift + n` - search file (`cmd + shift + o`) ✔
 - `ctrl + alt + shift + n` - search symbol (`cmd + alt + o`)  
