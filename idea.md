@@ -76,7 +76,7 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
     - `shift + f3` - previous usage (`cmd + shift + g`) ✔
 - `ctrl + alt + f7` - show usages in file (popup) (`cmd + alt + f7`)
 
-## Navigation
+`## Navigation
 
 - `ctrl + g` - go to line (`cmd + l`) ✔
 - `alt + left/right` - go to previous/next tab (`ctrl + left/right`) ⚡
@@ -97,6 +97,14 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + u` - go to super class/method (`cmd + u`) ⚡
 - `alt + space` - quick definition lookup
 - `alt + up/down` - go to previous/next method
+
+- `f2 / shift + f2` - next/previous highlighted error
+
+### Bookmarks
+- `f11` - toggle bookmark (`f3`)
+- `ctrl + f11` - toggle bookmark with mnemonic (`alt + f3`)
+- `shift + f11` - show bookmarks (`cmd + f3`)
+- `ctrl + 0-9` - go to bookmark
 
 
 ### Searching
