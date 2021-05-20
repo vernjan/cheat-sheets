@@ -96,6 +96,7 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 ### Single tab
 - `ctrl + g` - go to line (`cmd + l`) ✔
 - `alt + up/down` - go to previous/next method
+- `ctrl + [/]` - move to code block start/end 
 - `ctrl + shift + m` - move caret to matching brace
 - `f2 / shift + f2` - next/previous highlighted error
 
