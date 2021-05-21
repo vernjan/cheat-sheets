@@ -76,15 +76,6 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + +/-` - expand/collapse block ⚡
 - `ctrl + shift + +/-` - expand/collapse all
 
-### Searching
-- `shift + shift` - search everywhere ✔
-    - `/` - limit search for commands
-    - `/url/` - limit search for URL mappings (web endpoints) ⚡
-- `ctrl + n` - search class (`cmd + o`) ✔
-- `ctrl + shift + n` - search file (`cmd + shift + o`) ✔
-- `ctrl + alt + shift + n` - search symbol (`cmd + alt + o`)
-- `ctrl + shift + a` - search action (`cmd + shift + a`)
-
 ### Tabs & Windows
 - `ctrl + tab` - tab & tool switcher ⚡
 - `alt + left/right` - go to previous/next tab (`ctrl + left/right`) ⚡
@@ -111,8 +102,6 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 ### Usage search
 - `alt + f7` - find usages (tool window) ✔
 - `ctrl + f7` - highlight usages in file (`cmd + f7`)
-    - `f3` - next usage (`cmd + g`) ✔
-    - `shift + f3` - previous usage (`cmd + shift + g`) ✔
 - `ctrl + alt + f7` - show usages in file (popup) (`cmd + alt + f7`)
 
 ### Bookmarks
@@ -128,6 +117,22 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + shift + h` - method hierarchy (`cmd + shift + h`)
 - `ctrl + alt + h` - call hierarchy ✔
 
+## Search & Replace
+- `shift + shift` - search everywhere ✔
+    - `/` - limit search for commands
+    - `/url/` - limit search for URL mappings (web endpoints) ⚡
+- `ctrl + n` - search class (`cmd + o`) ✔
+- `ctrl + shift + n` - search file (`cmd + shift + o`) ✔
+- `ctrl + alt + shift + n` - search symbol (`cmd + alt + o`)
+- `ctrl + shift + a` - search action (`cmd + shift + a`)
+  
+### Fulltext
+- `ctrl + f` - find (`cmd + f`) ✔
+- `ctrl + r` - replace (`cmd + r`) ✔
+- `ctrl + shift + f` - global search (`cmd + shift + f`) ✔
+- `ctrl + shift + r` - global replace (`cmd + shift + r`) ✔
+- `f3` - find next (`cmd + g`) ✔
+- `shift + f3` - find previous (`cmd + shift + g`) ✔
 
 
 ---
