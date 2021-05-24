@@ -91,13 +91,14 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + shift + m` - move caret to matching brace
 - `f2 / shift + f2` - next/previous highlighted error
 
-### Recent locations
+### Recent locations & changes
 - `ctrl + alt + left/right` - navigate back/forward (`cmd + alt + left/right`) ✔
 - `ctrl + shift + backspace` - navigate to last edit location (`cmd + shift + backspace`) ⚡
 - `ctrl + e` - recent files popup (`cmd + e`) ⚡
     - `ctrl + e` - recent edited files
 - `ctrl + shift + e` - recent locations popup (`cmd + shift + e`) ⚡
     - `ctrl + shift + e` recent edited locations
+- `ctrl + shift + k` - view recent changes (`alt + shift + c`)
 
 ### Usage search
 - `alt + f7` - find usages (tool window) ✔
@@ -135,6 +136,10 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `shift + f3` - find previous (`cmd + shift + g`) ✔
 
 
+## VCS
+- `ctrl + k` - commit (`cmd + k`)
+- `ctrl + t` - update project (pull) (`cmd + t`)
+- ```alt + ` ``` - quick popup (`ctrl + v`)
 ---
 
 ## General
