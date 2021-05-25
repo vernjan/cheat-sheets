@@ -2,6 +2,21 @@
 
 https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
 
+## General
+
+- `alt + f1` - select current file or symbol in any view ⚡
+- `ctrl + f4` - close active tab (`cmd + w`)
+- `alt + home` - jump to navigation bar
+
+### Settings
+
+- `ctrl + alt + s` - open Preferences (`cmd + ,`)
+- `ctrl + alt + shift + s` - open Project structure (`cmd + ;`)
+
+### New files
+- `alt + insert` - new file, source, diagram, ...  (`cmd + n`)
+- `ctrl + alt + shift + insert` - new scratch file (`cmd + shift + n`)
+
 ## Edit
 
 ### Text selection
@@ -135,56 +150,35 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `f3` - find next (`cmd + g`) ✔
 - `shift + f3` - find previous (`cmd + shift + g`) ✔
 
-
 ## VCS
-- `ctrl + k` - commit (`cmd + k`)
-- `ctrl + t` - update project (pull) (`cmd + t`)
-- ```alt + ` ``` - quick popup (`ctrl + v`)
----
+- `ctrl + k` - commit (`cmd + k`) ✔
+- `ctrl + shift + k` - push commits (`shift + cmd + k`)
+- `ctrl + t` - update project (pull) (`cmd + t`) ✔
+- ```alt + ` ``` - quick popup (`ctrl + v`) ⚡
 
-## General
+TODO
+- commit window (cmd+0)
+- rollback changes (cmd+option+z)
+- commit message history (ctrl+m)
 
-- run anything (ctrl+ctrl)
-
-- `alt + f1` - select current file or symbol in any view ⚡
-
-- `ctrl + f4` - close active tab (`cmd + w`)
-
-- `ctrl + alt + s` - open Preferences (`cmd + ,`)
-- `ctrl + alt + shift + s` - open Project structure (`cmd + ;`)
-
-- `alt + insert` - new file, source, diagram, ...  (`cmd + n)`
-- `ctrl + alt + shift + insert` - new scratch file (`cmd + shift + n`)
-
-- `alt + home` - jump to navigation bar
-
-## Search/Replace
-
-- find (cmd+f)
-- global find (shift+cmd+f)
-- replace (cmd+r)
-- global replace (shift+cmd+r)
-- next (cmd+g)
-- previous (shift+cmd+g)
 
 ## Refactoring
+- `ctrl + alt + shift + t` - refactor this (`ctrl + t`)
+- `f5` - copy
+- `f6` - move
+- `shift + f6` - rename ✔
 
-- rename (shift+f6)
-- change signature (cmd+F6)
+
+
+
+
+---
 
 ## Compile and Run
 
 - Run current context (cmd+shift+r)
 - Re-run (ctrl+r)
-
-## VCS/Local History
-
-- commit project to VCS (cmd+k)
-- push to Git (shift+cmd+k)
-- update project from VCS (cmd+t)
-- commit window (cmd+0)
-- rollback changes (cmd+option+z)
-- commit message history (ctrl+m)
+- run anything (ctrl+ctrl)
 
 ## Tool windows
 
@@ -199,5 +193,4 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 - compare (cmd+d)
 - refresh (cmd+r)
-
 - ! switch between class and test class (shift+cmd+t)
