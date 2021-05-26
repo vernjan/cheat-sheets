@@ -3,13 +3,12 @@
 https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
 
 ## General
-
 - `alt + f1` - select current file or symbol in any view ⚡
 - `ctrl + f4` - close active tab (`cmd + w`)
+- `alt + close tab (click X)` - close all tabs except the active one
 - `alt + home` - jump to navigation bar
 
 ### Settings
-
 - `ctrl + alt + s` - open Preferences (`cmd + ,`)
 - `ctrl + alt + shift + s` - open Project structure (`cmd + ;`)
 
@@ -126,7 +125,6 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `shift + f11` - show bookmarks (`cmd + f3`)
 - `ctrl + 0-9` - go to bookmark
 
-
 ### Hierarchies
 - `ctrl + f12` - file structure popup (`cmd + f12`) ✔
 - `ctrl + h` - type hierarchy
@@ -167,6 +165,16 @@ TODO
 - `f5` - copy
 - `f6` - move
 - `shift + f6` - rename ✔
+- `ctrl + f6` - change signature (`cmd + f6`) ✔
+
+### Extracts
+- `ctrl + alt + n` - inline (`cmd + alt + n`) ✔
+- `ctrl + alt + m` - extract method (`cmd + alt + m`) ✔
+- `ctrl + alt + v` - extract variable (`cmd + alt + v`) ✔
+- `ctrl + alt + c` - extract constant (`cmd + alt + c`) ✔
+- `ctrl + alt + f` - extract field (`cmd + alt + f`) ✔
+- `ctrl + alt + p` - extract parameter (`cmd + alt + p`) ✔
+
 
 
 
