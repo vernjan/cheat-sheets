@@ -132,7 +132,7 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + alt + h` - call hierarchy ✔
 
 ## Search & Replace
-- `shift + shift` - search everywhere ✔
+- `shift & shift` - search everywhere ✔
     - `/` - limit search for commands
     - `/url/` - limit search for URL mappings (web endpoints) ⚡
 - `ctrl + n` - search class (`cmd + o`) ✔
@@ -149,16 +149,13 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `shift + f3` - find previous (`cmd + shift + g`) ✔
 
 ## VCS
-- `ctrl + k` - commit (`cmd + k`) ✔
+- `ctrl + k` - commit (focus on commit message) (`cmd + k`) ✔
+  - `TODO` - commit message history (`ctrl + m`)
+- `alt + 0` - commit (focus on changed files) (`cmd + 0`) ✔
+- `TODO` - rollback changes (`cmd + alt + z`)  
 - `ctrl + shift + k` - push commits (`shift + cmd + k`)
 - `ctrl + t` - update project (pull) (`cmd + t`) ✔
 - ```alt + ` ``` - quick popup (`ctrl + v`) ⚡
-
-TODO
-- commit window (cmd+0)
-- rollback changes (cmd+option+z)
-- commit message history (ctrl+m)
-
 
 ## Refactoring
 - `ctrl + alt + shift + t` - refactor this (`ctrl + t`)
@@ -175,9 +172,12 @@ TODO
 - `ctrl + alt + f` - extract field (`cmd + alt + f`) ✔
 - `ctrl + alt + p` - extract parameter (`cmd + alt + p`) ✔
 
-
-
-
+## Compile & Run
+- `ctrl + f9` - build project (`cmd + f9`)
+- `ctrl & ctrl` - run anything
+- `shift + f10/f9` - run/debug (`ctrl + r/d`)
+- `ctrl + shift + f10/f9` - run/debug the current class/ test method (`ctrl + shift + r/d`)
+- `alt + shift + f10/f9` - open run/debug dialog (`ctrl + alt + r/d`)
 
 
 ---
