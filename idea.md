@@ -8,6 +8,18 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `alt + close tab (click X)` - close all tabs except the active one
 - `alt + home` - jump to navigation bar
 
+### Tool windows
+- `alt + 0` - commit (`cmd + 0`) ✔
+- `alt + 1` - project (`cmd + 1`) ✔
+- `alt + 2` - favorites (`cmd + 2`)
+- `alt + 3` - find (`cmd + 3`)
+- `alt + 4` - run (`cmd + 4`)
+- `alt + 5` - debug (`cmd + 5`)
+- `alt + 6` - problems (`cmd + 6`)
+- `alt + 7` - structure (`cmd + 7`) ✔
+- `alt + 8` - services (`cmd + 8`)
+- `alt + 9` - Git (`cmd + 9`) ✔
+
 ### Settings
 - `ctrl + alt + s` - open Preferences (`cmd + ,`)
 - `ctrl + alt + shift + s` - open Project structure (`cmd + ;`)
