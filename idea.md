@@ -193,8 +193,10 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `alt + shift + f10/f9` - open run/debug dialog (`ctrl + alt + r/d`)
 
 ## Debugging
-- `f8` - step over ✔
 - `f7` - step into ✔
+- `shift + f7` - smart step into TODO
+- `f8` - step over ✔
+- `shift + f8` - step out
 - `f9` - resume (`cmd + r`)
 - `alt + f8` - evaluate expression ✔
 - `alt + f9` - run to cursor
