@@ -162,12 +162,13 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 ## VCS
 - `ctrl + k` - commit (focus on commit message) (`cmd + k`) ✔
-  - `TODO` - commit message history (`ctrl + m`)
+  - `???` - commit message history (`ctrl + m`)
 - `alt + 0` - commit (focus on changed files) (`cmd + 0`) ✔
-- `TODO` - rollback changes (`cmd + alt + z`)  
+- `ctrl + alt + z` - rollback changes (`cmd + alt + z`)  
 - `ctrl + shift + k` - push commits (`shift + cmd + k`)
 - `ctrl + t` - update project (pull) (`cmd + t`) ✔
 - ```alt + ` ``` - quick popup (`ctrl + v`) ⚡
+- ```ctrl + shift + ` ``` - branches (TODO) ⚡
 
 ## Refactoring
 - `ctrl + alt + shift + t` - refactor this (`ctrl + t`)
