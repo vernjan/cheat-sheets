@@ -191,6 +191,14 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + shift + f10/f9` - run/debug the current class/ test method (`ctrl + shift + r/d`)
 - `alt + shift + f10/f9` - open run/debug dialog (`ctrl + alt + r/d`)
 
+## Debugging
+- `f8` - step over ✔
+- `f7` - step into ✔
+- `f9` - resume (`cmd + r`)
+- `alt + f8` - evaluate expression ✔
+- `alt + f9` - run to cursor
+- `ctrl + f8` - toggle breakpoint (`cmd + f8`)
+- `ctrl + shift + f8` - view breakpoints (`cmd + shift + f8`)
 
 ---
 
