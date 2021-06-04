@@ -1,16 +1,22 @@
 # IntelliJ IDEA
 
-https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
+TODO
+- Check against this: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
+- Last review 
 
 ## General
 - `alt + f1` - select current file or symbol in any view ⚡
 - `ctrl + f4` - close active tab (`cmd + w`)
 - `alt + close tab (click X)` - close all tabs except the active one
 - `alt + home` - jump to navigation bar
+- `ctrl + shift + f12` - maximize editor (`cmd + shift + f12`)
+- ```ctrl + ` ``` - switch theme, keymap, view mode, ...
 
 ### Tool windows
 - `alt + 0` - commit (`cmd + 0`) ✔
 - `alt + 1` - project (`cmd + 1`) ✔
+    - `shift + enter` - open in right split
+    - `ctrl + d` - compare (`cmd + d`) ✔
 - `alt + 2` - favorites (`cmd + 2`)
 - `alt + 3` - find (`cmd + 3`)
 - `alt + 4` - run (`cmd + 4`)
@@ -71,7 +77,7 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 ### Code generation
 - `alt + insert` - generate code (`cmd + n`) ⚡
-- `ctrl + alt + t` - surround with (if, else, try, catch, ..) (`cmd + alt + t`) ⚡
+- `ctrl + alt + t` - surround with (if, else, try, catch, ...) (`cmd + alt + t`) ⚡
 - `ctrl + o` - override methods
 - `ctrl + i` - implement methods
   
@@ -98,6 +104,7 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + shift + b` - go to type declaration ⚡
 - `ctrl + alt + b` - go to implementations (`cmd + shift + b`) ⚡
 - `ctrl + u` - go to super class/method (`cmd + u`) ⚡
+- `ctrl + shift + t` - switch between class and test class (`shift + cmd + t`) ✔
 - `alt + space` - quick definition lookup
 - `ctrl + +/-` - expand/collapse block ⚡
 - `ctrl + shift + +/-` - expand/collapse all
@@ -168,7 +175,7 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `ctrl + shift + k` - push commits (`shift + cmd + k`)
 - `ctrl + t` - update project (pull) (`cmd + t`) ✔
 - ```alt + ` ``` - quick popup (`ctrl + v`) ⚡
-- ```ctrl + shift + ` ``` - branches (TODO) ⚡
+- ```ctrl + shift + ` ``` - branches (`-`) ⚡
 
 ## Refactoring
 - `ctrl + alt + shift + t` - refactor this (`ctrl + t`)
@@ -194,7 +201,7 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 
 ## Debugging
 - `f7` - step into ✔
-- `shift + f7` - smart step into TODO
+- `shift + f7` - smart step into
 - `f8` - step over ✔
 - `shift + f8` - step out
 - `f9` - resume (`cmd + r`)
@@ -202,26 +209,3 @@ https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA
 - `alt + f9` - run to cursor
 - `ctrl + f8` - toggle breakpoint (`cmd + f8`)
 - `ctrl + shift + f8` - view breakpoints (`cmd + shift + f8`)
-
----
-
-## Compile and Run
-
-- Run current context (cmd+shift+r)
-- Re-run (ctrl+r)
-- run anything (ctrl+ctrl)
-
-## Tool windows
-
-- 0 commit (changelist)
-- cmd+k commit (commit message)
-- 1 project
-- 3 find
-- 4 run
-- 7 structure
-
-## Others
-
-- compare (cmd+d)
-- refresh (cmd+r)
-- ! switch between class and test class (shift+cmd+t)
