@@ -22,6 +22,7 @@ TODO
 - `alt + 4` - run (`cmd + 4`)
 - `alt + 5` - debug (`cmd + 5`)
 - `alt + 6` - problems (`cmd + 6`)
+  - `alt + shift + i` - inspect current file
 - `alt + 7` - structure (`cmd + 7`) ✔
 - `alt + 8` - services (`cmd + 8`)
 - `alt + 9` - Git (`cmd + 9`) ✔
@@ -99,6 +100,18 @@ TODO
 - `ctrl + shift + /` - comment / uncomment with block comment (`cmd + alt + /`) ✔
 - `ctrl + shift + up/down` - swap methods/blocks (`cmd + shift + up/down`) ✔
 
+## Live templates
+- `ctrl + j` - live templates (`cmd + j`)
+    - `fori` - for loop (use `tab` to complete all live templates)
+    - `ifn` - if null
+    - `inn` - if not null  
+    - `thr` - `throw new`
+    - `souf` - `System.out.printf("");`
+    - `sout` - `System.out.println();`
+    - `soutm` - print method name
+    - `soutp` - print method params
+    - `soutv` - print (last) value
+
 ## Navigation
 - `ctrl + b / ctrl + click` - go to declaration ✔
 - `ctrl + shift + b` - go to type declaration ⚡
@@ -167,7 +180,7 @@ TODO
 - `f3` - find next (`cmd + g`) ✔
 - `shift + f3` - find previous (`cmd + shift + g`) ✔
 
-## VCS
+## VCS (Git)
 - `ctrl + k` - commit (focus on commit message) (`cmd + k`) ✔
   - `???` - commit message history (`ctrl + m`)
 - `alt + 0` - commit (focus on changed files) (`cmd + 0`) ✔
