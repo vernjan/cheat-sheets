@@ -59,6 +59,7 @@ TODO
 - `ctrl + backspace/delete` - delete to word start/end ⚡
 - `ctrl + shift + backspace/delete` - delete to line start/end ⭐
 - `alt + shift + up/down` - swap lines ✔
+- `ctrl + shift + up/down` - swap methods/blocks (`cmd + shift + up/down`) ✔
 - `ctrl + c` - copy line (`cmd + c`) ✔
 - `ctrl + x` - cut line (`cmd + x`) ✔
 - `ctrl + shift + v` - paste from recent buffers ("local clipboard history") (`cmd + shift + v`)
@@ -72,26 +73,27 @@ TODO
 
 ## Code
 
-### Code completion
-- `ctrl + space` - basic code completion ✔
-- `ctrl + shift + space` - smart code completion
-    - `enter` - insert
-    - `tab` - replace
-- `ctrl + shift + enter` - complete statement (`cmd + shift + enter`) ⚡
 - `alt + enter` - show intention actions and quick-fixes ✔
-
-### Code generation
 - `alt + insert` - generate code (`cmd + n`) ⚡
 - `ctrl + o` - override methods
 - `ctrl + i` - implement methods
 - `ctrl + alt + t` - surround with (if, else, try, catch, ...) (`cmd + alt + t`) ⚡
 - `ctrl + alt + l` - reformat code (`cmd + alt + l`) ✔
 - `ctrl + alt + o` - optimize imports (`ctrl + alt + o`) ✔
-- `ctrl + alt + i` - auto-indent line(s) (`ctrl + alt + i`)  
+- `ctrl + alt + i` - auto-indent line(s) (`ctrl + alt + i`)
+- `ctrl + /` - comment / uncomment with line comment (`cmd + /`) ✔
+- `ctrl + shift + /` - comment / uncomment with block comment (`cmd + alt + /`) ✔
+
+### Code completion
+- `ctrl + space` - basic code completion ✔
+- `ctrl + shift + space` - smart code completion
+    - `enter` - insert
+    - `tab` - replace
+- `ctrl + shift + enter` - complete statement (`cmd + shift + enter`) ⚡
 
 ### Context info
 - `ctrl + p` - parameter info (`cmd + p`) ⚡
-- `ctrl + mouse` - brief info, resolves `var` type (`cmd + mouse`)
+- `ctrl + mouse` - brief info, resolves `var` type (`cmd + mouse`) ✔
 - `ctrl + q` - quick documentation lookup (`ctrl + j`, `F1`)
 - `alt + q` - context info (current method, class) (`ctrl + shift + q`)
 - `ctrl + shift + p` - expression type info ⚡
@@ -99,14 +101,8 @@ TODO
 - `ctrl + F1` - show descriptions of error or warning at caret (`cmd + F1`)
     - `alt + shift + enter` - apply suggested fix
 
-<<HERE>>    
-### Editing
-- `ctrl + /` - comment / uncomment with line comment (`cmd + /`) ✔
-- `ctrl + shift + /` - comment / uncomment with block comment (`cmd + alt + /`) ✔
-- `ctrl + shift + up/down` - swap methods/blocks (`cmd + shift + up/down`) ✔
-
 ## Live templates
-- `ctrl + j` - live templates (`cmd + j`)
+- `ctrl + j` - live templates (`cmd + j`) ⚡
     - `fori` - for loop (use `tab` to complete all live templates)
     - `ifn` - if null
     - `inn` - if not null  
@@ -123,16 +119,14 @@ TODO
 - `ctrl + alt + b` - go to implementations (`cmd + shift + b`) ⚡
 - `ctrl + u` - go to super class/method (`cmd + u`) ⚡
 - `ctrl + shift + t` - switch between class and test class (`shift + cmd + t`) ✔
+- `ctrl + g` - go to line (`cmd + l`) ✔
+- `alt + up/down` - go to previous/next method ⚡
+- `ctrl + [/]` - move to code block start/end ⚡
+- `ctrl + shift + m` - move caret to matching brace ⚡
+- `f2 / shift + f2` - next/previous highlighted error
 - `alt + space` - quick definition lookup
 - `ctrl + +/-` - expand/collapse block ⚡
 - `ctrl + shift + +/-` - expand/collapse all
-
-### Single tab
-- `ctrl + g` - go to line (`cmd + l`) ✔
-- `alt + up/down` - go to previous/next method
-- `ctrl + [/]` - move to code block start/end 
-- `ctrl + shift + m` - move caret to matching brace
-- `f2 / shift + f2` - next/previous highlighted error
 
 ### Recent locations & changes
 - `ctrl + alt + left/right` - navigate back/forward (`cmd + alt + left/right`) ✔
@@ -145,10 +139,10 @@ TODO
 
 ### Usage search
 - `alt + f7` - find usages (tool window) ✔
-- `ctrl + f7` - highlight usages in file (`cmd + f7`)
+- `ctrl + f7` - highlight usages in file (`cmd + f7`) ⚡
 - `ctrl + alt + f7` - show usages in file (popup) (`cmd + alt + f7`)
 
-### Bookmarks
+### Bookmarks ⚡
 - `f11` - toggle bookmark (`f3`)
 - `ctrl + f11` - toggle bookmark with mnemonic (`alt + f3`)
 - `shift + f11` - show bookmarks (`cmd + f3`)
@@ -167,7 +161,7 @@ TODO
 - `ctrl + n` - search class (`cmd + o`) ✔
 - `ctrl + shift + n` - search file (`cmd + shift + o`) ✔
 - `ctrl + alt + shift + n` - search symbol (`cmd + alt + o`)
-- `ctrl + shift + a` - search action (`cmd + shift + a`)
+- `ctrl + shift + a` - search action (`cmd + shift + a`) ✔
   
 ### Fulltext
 - `ctrl + f` - find (`cmd + f`) ✔
@@ -211,7 +205,6 @@ TODO
 
 ## Debugging
 - `f7` - step into ✔
-- `shift + f7` - smart step into
 - `f8` - step over ✔
 - `shift + f8` - step out
 - `f9` - resume (`cmd + r`)
