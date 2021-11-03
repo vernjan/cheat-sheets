@@ -1,6 +1,7 @@
 # GDB
 
-https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
+- https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
+- https://visualgdb.com/gdbreference/commands/
 
 ## Breakpoints
 
@@ -24,13 +25,15 @@ https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
 
 ## Variables and memory
 
-- `print/format [something]` - print value of  _something_
+- `p[rint]/format [something]` - print value of  _something_
 - `display/format [something]` - print value of _something_ after each step
 - `x/format [something]` - print memory
 
 ### Something
 
-- variable - `x argc`
+- variable
+  - `x argc`
+  - `p *var` to dereference pointers 
 - function - `x main`
 - address - `x 0x804b170`
 - register - `x $esp`
