@@ -121,8 +121,8 @@ TODO
 - `ctrl + shift + t` - switch between class and test class (`shift + cmd + t`) ✔
 - `ctrl + g` - go to line (`cmd + l`) ✔
 - `alt + up/down` - go to previous/next method ⚡
-- `ctrl + [/]` - move to code block start/end ⚡
-- `ctrl + shift + m` - move caret to matching brace ⚡
+- `ctrl + [/]` - move to code block start/end (`cmd + alt + [/]`) ⚡
+- `ctrk + shift + m` - toggle code block start/end (`ctrl + m`) ⚡
 - `f2 / shift + f2` - next/previous highlighted error
 - `alt + space` - quick definition lookup
 - `ctrl + +/-` - expand/collapse block ⚡
