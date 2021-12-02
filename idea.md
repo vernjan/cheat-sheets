@@ -2,7 +2,6 @@
 
 TODO
 - Check against this: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
-- Last review 
 
 ## General
 - `ctrl + alt + s` - open Preferences (`cmd + ,`)
@@ -212,3 +211,7 @@ TODO
 - `alt + f9` - run to cursor
 - `ctrl + f8` - toggle breakpoint (`cmd + f8`)
 - `ctrl + shift + f8` - view breakpoints (`cmd + shift + f8`)
+
+## Diagrams
+`ctrl + alt + shift + d` - VCS local changes
+`ctrl + alt + shift + u` - UML class diagram (invoke on package)

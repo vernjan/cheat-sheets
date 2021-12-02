@@ -7,3 +7,6 @@
     - `-h` - human-readable
 - `df` - disk free - all filesystem
 - `df .` - disk free - current filesystem
+- `dpkg -i PACKAGE` - install (DEB) package
+- `dpkg -s/--status PACKAGE` - show package info
+- `dpkg -l/--list [pattern]` - show package info

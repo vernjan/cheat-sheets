@@ -9,3 +9,6 @@
 - [GDB](gdb.md)
 - [Linux Commands](linux-commands.md)
 - [Jenkins](jenkins.md)
+- [JVM](jvm.md)
+- [Git](git.md)
+- [Docker Compose](git.md)
