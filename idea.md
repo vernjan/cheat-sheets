@@ -119,7 +119,7 @@ TODO
 - `ctrl + u` - go to super class/method (`cmd + u`) ⚡
 - `ctrl + shift + t` - switch between class and test class (`shift + cmd + t`) ✔
 - `ctrl + g` - go to line (`cmd + l`) ✔
-- `alt + up/down` - go to previous/next method ⚡
+- `alt + up/down` - go to previous/next method (`ctrl + [/]`) ⚡
 - `ctrl + [/]` - move to code block start/end (`cmd + alt + [/]`) ⚡
 - `ctrk + shift + m` - toggle code block start/end (`ctrl + m`) ⚡
 - `f2 / shift + f2` - next/previous highlighted error

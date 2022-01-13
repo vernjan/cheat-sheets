@@ -100,13 +100,16 @@ https://linuxize.com/post/vim-find-replace/
 - `:delm <NAMEs>` - delete marks
 - `:delm!` - delete all local marks
   
-## Jumps
-https://medium.com/breathe-publication/understanding-vims-jump-list-7e1bfc72cdf0
+## Jumps & Changes
+- https://medium.com/breathe-publication/understanding-vims-jump-list-7e1bfc72cdf0
+- https://medium.com/usevim/vim-101-the-jump-and-change-lists-ef15cfb22c30
 
 - `:ju[mps]` - list all jumps
 - `ctrl+i, ctrl+o` - jump forward/back
 - ``` `` ``` - jump to last position
 - ``` `. ``` - jump to last edit
+- `:changes` - list of changes
+- `[NUMBER]g;` - go to previous change (close changes list first)
 
 ## Text Objects
 https://blog.carbonfive.com/vim-text-objects-the-definitive-guide/
