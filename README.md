@@ -1,7 +1,5 @@
 # Cheat sheets
 
--wip-
-
 - [Vim](vim/vim.md)
     - [.vimrc](vim/vimrc.md)
 - [IntelliJ IDEA](idea.md)
@@ -12,3 +10,4 @@
 - [JVM](jvm.md)
 - [Git](git.md)
 - [Docker Compose](git.md)
+- [Terminal](terminal.md)
