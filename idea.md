@@ -1,7 +1,5 @@
 # IntelliJ IDEA
-
-TODO
-- Check against this: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
+- see [IntelliJIDEA_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
 
 ## General
 - `ctrl + alt + s` - open Preferences (`cmd + ,`)
@@ -31,7 +29,7 @@ TODO
 - `alt + 4` - run (`cmd + 4`)
 - `alt + 5` - debug (`cmd + 5`)
 - `alt + 6` - problems (`cmd + 6`)
-  - `alt + shift + i` - inspect current file ⚡
+    - `alt + shift + i` - inspect current file ⚡
 - `alt + 7` - structure (`cmd + 7`) ✔
 - `alt + 8` - services (`cmd + 8`)
 - `alt + 9` - Git (`cmd + 9`) ✔
@@ -104,7 +102,7 @@ TODO
 - `ctrl + j` - live templates (`cmd + j`) ⚡
     - `fori` - for loop (use `tab` to complete all live templates)
     - `ifn` - if null
-    - `inn` - if not null  
+    - `inn` - if not null
     - `thr` - `throw new`
     - `souf` - `System.out.printf("");`
     - `sout` - `System.out.println();`
@@ -161,7 +159,7 @@ TODO
 - `ctrl + shift + n` - search file (`cmd + shift + o`) ✔
 - `ctrl + alt + shift + n` - search symbol (`cmd + alt + o`)
 - `ctrl + shift + a` - search action (`cmd + shift + a`) ✔
-  
+
 ### Fulltext
 - `ctrl + f` - find (`cmd + f`) ✔
 - `ctrl + r` - replace (`cmd + r`) ✔
@@ -172,9 +170,9 @@ TODO
 
 ## VCS (Git)
 - `ctrl + k` - commit (focus on commit message) (`cmd + k`) ✔
-  - `???` - commit message history (`ctrl + m`)
+    - `???` - commit message history (`ctrl + m`)
 - `alt + 0` - commit (focus on changed files) (`cmd + 0`) ✔
-- `ctrl + alt + z` - rollback changes (`cmd + alt + z`)  
+- `ctrl + alt + z` - rollback changes (`cmd + alt + z`)
 - `ctrl + shift + k` - push commits (`shift + cmd + k`)
 - `ctrl + t` - update project (pull) (`cmd + t`) ✔
 - ```alt + ` ``` - quick popup (`ctrl + v`) ⚡
