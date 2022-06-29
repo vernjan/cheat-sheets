@@ -10,3 +10,4 @@
 - `dpkg -i PACKAGE` - install (DEB) package
 - `dpkg -s/--status PACKAGE` - show package info
 - `dpkg -l/--list [pattern]` - show package info
+- `stats FILE` - show detailed file info
