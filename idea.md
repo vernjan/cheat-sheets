@@ -18,6 +18,7 @@
 - `shift + escape` - hide active (or last active) window ✔
 - `ctrl + f4` - close active tab (`cmd + w`) ✔
 - `alt + close tab (click X)` - close all tabs except the active one
+- `ctrl + alt + shift UP/DOWN/LEFT/RIGHT` - resize tool windows
 
 ### Tool windows
 - `alt + 0` - commit (`cmd + 0`) ✔
@@ -170,7 +171,7 @@
 
 ## VCS (Git)
 - `ctrl + k` - commit (focus on commit message) (`cmd + k`) ✔
-    - `???` - commit message history (`ctrl + m`)
+    - `ctrl + m` - commit message history (`ctrl + m`)
 - `alt + 0` - commit (focus on changed files) (`cmd + 0`) ✔
 - `ctrl + alt + z` - rollback changes (`cmd + alt + z`)
 - `ctrl + shift + k` - push commits (`shift + cmd + k`)
