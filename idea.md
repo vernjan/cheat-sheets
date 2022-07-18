@@ -68,6 +68,7 @@
 - `alt + shift + drag` - multi-select
 - `ctrl, ctrl + UP/DOWN` - clone cursor up/down
 - `alt + shift + g` - move all cursors to line ends ⚡
+- `alt + j` - one by one select occurrences of the current word and add cursor (`ctrl + g`) ⚡
 - `ctrl + alt + shift + j` - select all occurrences of the current word and add cursors (`ctrl + cmd + g`) ⚡
 
 ## Code
