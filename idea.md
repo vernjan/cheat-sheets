@@ -66,11 +66,11 @@
 ### Multi-cursors
 - `alt + shift + click` - add new cursor ⚡
 - `alt + shift + drag` - multi-select
+- `ctrl, ctrl + UP/DOWN` - clone cursor up/down
 - `alt + shift + g` - move all cursors to line ends ⚡
 - `ctrl + alt + shift + j` - select all occurrences of the current word and add cursors (`ctrl + cmd + g`) ⚡
 
 ## Code
-
 - `alt + enter` - show intention actions and quick-fixes ✔
 - `alt + insert` - generate code (`cmd + n`) ⚡
 - `ctrl + o` - override methods
